@@ -66,14 +66,17 @@ Maintain these files for every novel project:
 - `08-dynamic-state.md`
 - `09-style-guide.md`
 - `chapters/`
+- `drafts/`
 - `control-cards/`
 - `logs/writing-log.md`
 
 Directory rules:
 
 - store accepted chapter manuscripts in `chapters/`
+- store pre-authenticity drafts (after benchmark passes, before de-AI pass) in `drafts/`
 - store one persisted chapter control card per accepted chapter in `control-cards/`
 - default file naming:
+  - `drafts/NN-<chapter-title>-draft.md`
   - `chapters/NN-<chapter-title>.md`
   - `control-cards/NN-<chapter-title>-control-card.md`
 - if chapters are numbered-only, replace `<chapter-title>` with a short chapter slug rather than leaving filenames blank
@@ -488,27 +491,28 @@ For every chapter, use this order:
    - under `web-serial-natural`, keep most narrative paragraphs at `2-4` sentences and avoid chaining single-sentence narrative paragraphs unless the scene is deliberately striking beats
    - keep one speaker's continuous beat, attached action, and short follow-up in the same paragraph unless the pressure or stage movement changes
    - use paragraph breaks for speaker change, scene/time or point-of-view shift, and real pressure turns rather than decorative emptiness
-   - store the accepted chapter manuscript in `chapters/NN-<chapter-title>.md`
 11. Run the chapter benchmark check.
 12. If the benchmark check fails, apply rewrite escalation before accepting the chapter.
-13. Run the authenticity pass using [authenticity-and-de-ai-pass.md](references/authenticity-and-de-ai-pass.md).
+13. Store the pre-authenticity draft in `drafts/NN-<chapter-title>-draft.md` before running the authenticity pass.
+14. Run the authenticity pass using [authenticity-and-de-ai-pass.md](references/authenticity-and-de-ai-pass.md).
    - strip generic AI patterns, false depth, and abstract summaries first
    - cut or translate over-professionalized diction unless the project genuinely needs the term
    - then restore concrete detail, rhythm variation, and project-specific voice
-14. Run a post-authenticity mini recheck.
+15. Run a post-authenticity mini recheck.
    - confirm continuity facts still hold
    - confirm character voice and relationship pressure did not flatten or drift
    - confirm hook, closure, and residue still function
    - confirm paragraphing still matches the active paragraph mode and is not leaning on decorative blank space
    - confirm readability did not drop behind unnecessary jargon
    - confirm required professional, era, or setting terms were not accidentally removed
-15. If the project uses chapter titles, run the final title check.
+16. If the project uses chapter titles, run the final title check.
    - confirm the title still matches the accepted chapter's mission, turn, residue, and voice
    - replace the working title if the chapter changed its center during drafting
-16. Review the chapter for continuity, style integrity, thematic pressure, critical standards, and whether return-pressure handling stayed causal rather than token.
-17. Update dynamic and structural files.
+17. Review the chapter for continuity, style integrity, thematic pressure, critical standards, and whether return-pressure handling stayed causal rather than token.
+18. Update dynamic and structural files.
+   - store the accepted chapter manuscript in `chapters/NN-<chapter-title>.md`
    - keep `chapters/` and `control-cards/` aligned with the accepted chapter title and number
-18. Record the chapter and file updates in the writing log.
+19. Record the chapter and file updates in the writing log.
 
 ## Forgotten Element Control
 
@@ -565,7 +569,7 @@ In marathon mode:
 
 Tiered writeback in marathon mode:
 
-- every chapter: update `08-dynamic-state.md` (add new state, remove carryover items this chapter resolved), write `chapters/NN-<title>.md` and `control-cards/NN-<title>-control-card.md`, append to `logs/writing-log.md`
+- every chapter: update `08-dynamic-state.md` (add new state, remove carryover items this chapter resolved), write `drafts/NN-<title>-draft.md` and `chapters/NN-<title>.md` and `control-cards/NN-<title>-control-card.md`, append to `logs/writing-log.md`
 - every 3-5 chapters or when content materially changed: update `05-main-plotlines.md`, `06-foreshadow-ledger.md`, `07-chapter-roadmap.md`; when updating `06-foreshadow-ledger.md`, move paid-off foreshadows to an `## Archive` section at the bottom — do not delete, do not leave in the active list; when updating `07-chapter-roadmap.md`, move completed chapter slots to an `## Archive` section at the bottom
 - only when content actually changed: update `02-worldbuilding.md`, `03-cast-bible.md`, `04-relationship-map.md`
 
