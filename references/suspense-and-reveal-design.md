@@ -1,99 +1,99 @@
-# Suspense And Reveal Design
+# 悬念与揭示设计 (Suspense And Reveal Design)
 
-Use this when the story needs uncertainty, investigation, delayed truth, or chapter-end pull.
+当故事需要不确定性、调查、延迟真相或章尾拉力时，读这一份。
 
-Goal: create tension through legitimate pressure, not author cheating.
+目标是：让紧张感来自正当压力，而不是作者作弊。
 
-## 1. A Live Question Needs A Cost
+## 1. 活问题必须有代价
 
-Suspense starts when the reader knows:
+悬念成立时，读者应该知道：
 
-- what matters
-- what is uncertain
-- what is at risk if the answer comes late
+- 什么事重要
+- 哪个答案还不确定
+- 如果答案来得太晚，会有什么风险
 
-Without cost, a question is trivia.
+没有代价的问题，只是冷知识。
 
-## 2. Layer Suspense By Scale
+## 2. 悬念要分层
 
-Track three levels:
+至少追踪三层：
 
-- local suspense:
-  - what happens in this scene
-- chapter suspense:
-  - what makes the next chapter necessary
-- long-line suspense:
-  - what unresolved truth or threat spans many chapters
+- 局部悬念：
+  - 这一场会发生什么
+- 章节悬念：
+  - 什么东西让下一章变得必要
+- 长线悬念：
+  - 哪个未解真相或威胁横跨许多章
 
-Do not rely on only one scale.
+不要只靠一个尺度的悬念撑全书。
 
-## 3. Delay Must Be Legitimate
+## 3. 延迟信息必须有正当理由
 
-Delay information only when:
+只有在这些情况下，才应该延迟信息：
 
-- a character cannot know it yet
-- a character misreads it for believable reasons
-- the timing of knowledge changes danger or consequence
+- 角色现在确实还不可能知道
+- 角色因为可信的原因误读了它
+- 知道得早或晚，会改变危险、选择或后果
 
-Do not delay because the author wants a trick.
+不要只因为作者想玩花招，就把信息藏起来。
 
-## 4. Fairness In Mystery Logic
+## 4. 推理逻辑要公平
 
-For clue-based fiction:
+如果作品依赖线索推理：
 
-- place real clues before the reveal
-- allow red herrings to explain clues too neatly
-- ensure the final answer can be reverse-engineered
+- 真线索必须早于揭示出现
+- 红鲱鱼可以解释得太顺，从而误导读者
+- 最终答案要能被读者回头反推出来
 
-Invisible clues are not fair-play clues.
+读者根本看不到的线索，不算公平线索。
 
-## 5. Reveal In Steps
+## 5. 揭示要分步释放
 
-Strong reveal order often works like this:
+强揭示常常可以按这个顺序来：
 
-1. remove the wrong explanation
-2. expose the hidden pattern
-3. connect motive, method, and timing
-4. show the cost of the truth
+1. 先拆掉错误解释
+2. 再露出隐藏规律
+3. 连接动机、方法和时间点
+4. 最后展示真相带来的代价
 
-Do not dump everything in a single speech if staged release is stronger.
+如果分步释放更有力，就不要让一个人一口气把所有真相讲完。
 
-## 6. Suspense And Character Must Interlock
+## 6. 悬念必须和人物咬合
 
-Ask:
+设计悬念时要问：
 
-- whose fear is activated by the hidden truth
-- who benefits if the truth stays buried
-- who misreads danger because of their flaw
-- what reveal changes a relationship, not only plot logic
+- 这个隐藏真相激活了谁的恐惧
+- 谁会因为真相继续被埋着而获益
+- 谁因为自身缺陷误读了危险
+- 哪个揭示改变了关系，而不只是改变了情节逻辑
 
-## 7. Chapter Hook Rules
+## 7. 章尾钩子规则
 
-A hook should:
+一个好的钩子应该：
 
-- emerge from an existing line
-- sharpen a threat, question, or irreversible choice
-- create necessity rather than noise
+- 从已经存在的线里长出来
+- 让威胁、问题或不可逆选择更锋利
+- 制造“下一章非看不可”的必要性，而不是单纯制造响动
 
-Bad hooks:
+坏钩子包括：
 
-- fake withheld sentence
-- random shock
-- cliff with no changed condition
+- 假装没说完的一句话
+- 随机惊吓
+- 条件没有改变的悬崖
 
-## 8. Multi-Line Suspense
+## 8. 多线悬念轮换
 
-In long fiction, rotate suspense across lines:
+长篇里，悬念要在线与线之间轮换：
 
-- one line may resolve locally
-- another line should open wider
-- a third may deepen by implication rather than revelation
+- 一条线可以局部解决
+- 另一条线应该打开得更大
+- 第三条线可以通过暗示变深，而不必立刻揭示
 
-This keeps the project alive without repeating one trick.
+这样作品能持续活着，而不是反复用同一个小花招。
 
-## 9. Reveal Failure Signals
+## 9. 揭示失败信号
 
-- the truth appears too late to feel fair
-- suspense comes from confusion instead of pressure
-- delayed truth changes nothing after it arrives
-- every chapter ends with the same type of cliff
+- 真相来得太晚，读者觉得不公平
+- 悬念来自混乱，而不是压力
+- 真相抵达后，什么关系、选择或后果都没变
+- 每章都用同一种断章方式收尾

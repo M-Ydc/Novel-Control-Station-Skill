@@ -1,155 +1,165 @@
-# Interview And Handoff Flow
+# 访谈与交接流程 (Interview And Handoff Flow)
 
-Use this when starting a new project or rebuilding a project before fresh drafting.
+新建项目、重建项目，或在正式写正文前重新对齐设计时使用。
 
-Goal: ask enough to align the novel, then hand the user a full outline and cast dossier before prose begins.
+目标是：问够关键问题，把小说方向对齐，然后在开写正文前交付完整大纲和人物档案。
 
-## 1. Core Questions First
+## 1. 先问核心问题
 
-Start with these:
+优先确认：
 
-- genre
-- target audience
-- release mode
-- primary promise
-- protagonist setup
-- protagonist core personality
-- target length
-- whether the project is multi-line
-- social or era pressure
-- ending tendency
-- heat / reputation / dual-high preference
-- golden finger type and core advantage (for genres that use one)
-- primary style
-- support style if needed
-- style balance target: reader pull, type payoff, texture
-- paragraph mode
-- strengths to absorb from mature works for the chosen styles
-- forbidden habits
+- 类型
+- 目标读者
+- 发布模式
+- 核心承诺
+- 主角设定
+- 主角核心性格
+- 目标长度
+- 是否多线并行
+- 社会压力或时代压力
+- 结局倾向
+- 热度 / 口碑 / 双高平衡偏好
+- 如果类型使用金手指：金手指类型和核心优势
+- 主风格
+- 必要时的副风格
+- 风格平衡目标：读者拉力、类型兑现、质感
+- 段落模式
+- 需要从成熟作品中吸收的优点
+- 禁止习惯
 
-Default language rule:
+默认语言规则：
 
-- keep planning artifacts and fiction output in Chinese unless the user explicitly requests another language
-- ask only when needed whether the preferred Chinese mode is modern vernacular, historical texture, web-serial diction, or publication-oriented prose
-- unless a publication-oriented or literary long-paragraph preference is explicit, keep the default paragraph mode at `web-serial-natural`
+- 除非用户明确要求其他语言，规划文档和正文都用中文
+- 只在需要时询问中文语域：现代白话、历史质感、网文口吻、出版向散文等
+- 除非用户明确要求出版向或文学长段，默认段落模式用 `web-serial-natural`
 
-Ask one focused question at a time, but use this set to cover the minimum alignment area.
+一次只问一个聚焦问题，但要用这组问题覆盖最低对齐面。
 
-## 2. Derive More Questions From Answers
+## 2. 根据答案继续追问
 
-Branch by project type:
+按项目类型分支追问，不要每个项目都问同样深度。
 
-- suspense / mystery:
-  - hidden truth
-  - clue fairness
-  - reveal logic
-- historical:
-  - era pressure
-  - institution
-  - power chain
-- long-form:
-  - line count
-  - stage arcs
-  - convergence and finish logic
-  - release rhythm and update expectation
-- golden finger or power system:
-  - golden finger type
-  - growth curve and stage ceilings
-  - cost and hard limits
-  - binding to protagonist personality
-  - world power framework (tiers, source, social relation to power)
-- strong protagonist personality:
-  - stress behavior
-  - blind spots
-  - speech habits
-- multi-line:
-  - each line's mission
-  - line interference
-  - crossing points
-- style-sensitive projects:
-  - narration distance
-  - prose density
-  - paragraph mode
-  - when short strike paragraphs are allowed
-  - which strengths should be sustained across the whole book
-  - how strong the style should usually run: low, medium, high, adaptive
-  - pseudo-style drift to avoid
-  - taboo habits to avoid
-- foreshadow design:
-  - how many major foreshadow threads are planned
-  - which story stage each thread is expected to pay off in
-  - whether any foreshadow requires a specific surface form to stay fair
+悬疑 / 推理：
 
-Do not ask the same depth for every project. Derive only what the user's answers make necessary.
+- 隐藏真相是什么
+- 线索是否公平
+- 揭示逻辑如何成立
 
-When style intent becomes clear, write it into `09-style-guide.md` rather than leaving it as loose chat:
+历史 / 权谋：
 
-- style balance target
-- internalized strengths to absorb
-- paragraph mode and any override rule
-- support style boundary
-- pseudo-style drift to avoid
+- 时代压力是什么
+- 制度如何运转
+- 权力链条如何压人
 
-## 3. No Drafting Before Handoff
+长篇：
 
-After interview alignment:
+- 有几条线
+- 阶段弧线如何推进
+- 多线如何汇合，如何收束
+- 发布节奏和更新期待是什么
 
-- build the full outline
-- build the full cast dossier
-- present both before chapter drafting
+金手指或力量体系：
 
-## 4. What The Cast Dossier Must Show
+- 金手指类型
+- 成长曲线和阶段上限
+- 代价与硬限制
+- 与主角性格的绑定
+- 世界力量框架：层级、来源、力量与社会地位的关系
 
-For core cast:
+强性格主角：
 
-- role
-- core personality
-- visible goal
-- inner lack
-- key relationships
-- contradiction
-- arc direction
-- speech signature
-- last meaningful presence baseline
-- return pressure if already known
+- 受压行为
+- 盲点
+- 说话习惯
 
-## 5. What The Outline Must Show
+多线项目：
 
-- global promise
-- main and support lines
-- core conflicts
-- stage progression
-- key turns
-- ending direction
-- release mode
-- style mode
+- 每条线的任务
+- 线与线如何互相干扰
+- 交叉点在哪里
 
-## 6. User Branches After Presentation
+风格敏感项目：
 
-After presenting outline and cast, the user may:
+- 叙述距离
+- 文体密度
+- 段落模式
+- 什么时候允许短促重击段
+- 哪些优点要全书持续保持
+- 常规风格强度：低、中、高、自适应
+- 要避免的伪风格漂移
+- 禁用习惯
 
-- revise the current plan directly
-- start marathon mode
+伏笔设计：
 
-Do not restart the interview unless the user asks for a real reset.
+- 计划有多少条主要伏笔线
+- 每条大致在哪个阶段回收
+- 是否有伏笔需要特定表层形态才公平
 
-## 7. Direct-Edit Rule
+一旦风格意图明确，就写进 `09-style-guide.md`，不要只留在聊天里：
 
-When the user gives changes:
+- 风格平衡目标
+- 需要吸收的优点
+- 段落模式和覆盖规则
+- 副风格边界
+- 要避免的伪风格漂移
 
-- edit the current outline and cast dossier
-- preserve approved material unless the new change conflicts
-- show the repaired version
+## 3. 交接前不写正文
 
-Direct edit is iterative revision, not a full reboot.
+访谈对齐后：
 
-## 8. Marathon Handoff Rule
+- 先做完整大纲
+- 再做完整人物档案
+- 两者都交给用户看过，再开始章节正文
 
-Before entering marathon mode, ensure:
+## 4. 人物档案必须呈现什么
 
-- outline approved enough to carry the whole book
-- cast dossier approved enough to prevent blind drift
-- target mode and style settings are recorded
-- stop condition is natural outline completion
+核心人物至少要呈现：
 
-Then begin continuous chapter production without asking again between chapters.
+- 故事功能
+- 核心性格
+- 看得见的目标
+- 内在缺口
+- 关键关系
+- 矛盾
+- 弧线方向
+- 说话特征
+- 上一次有效存在基线
+- 已知返场压力
+
+## 5. 大纲必须呈现什么
+
+- 全书承诺
+- 主线和支线
+- 核心冲突
+- 阶段推进
+- 关键转折
+- 结局方向
+- 发布模式
+- 风格模式
+
+## 6. 用户看完后的分支
+
+用户看完大纲和人物档案后，可能会：
+
+- 直接修改当前方案
+- 进入马拉松模式
+
+除非用户要求真正重置，不要重新开一轮访谈。
+
+## 7. 直接修改规则
+
+用户给出修改意见时：
+
+- 直接改当前大纲和人物档案
+- 已确认的内容不要动，除非新意见与它冲突
+- 展示修复后的版本
+
+## 8. 马拉松交接规则
+
+用户要求疯狂写作、长期自动续写或无干预推进时：
+
+- 确认大纲和人物档案已经被接受
+- 确认标准项目文件已经存在
+- 确认 `codex-continue-novel.sh` 已在项目根目录
+- 交代启动命令和停止方式
+- 明确说明：马拉松模式不是免检查模式，每章仍要从项目文件重建上下文并回写状态

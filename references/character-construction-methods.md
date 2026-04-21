@@ -1,119 +1,121 @@
-# Character Construction Methods
+# 人物建构方法 (Character Construction Methods)
 
-Use this when designing the protagonist, core cast, or long-form arc progression.
+当你在设计主角、核心人物群，或长篇人物弧线时，读这一份。
 
-Goal: turn character design into behavior pressure rather than biography wallpaper.
+目标是：把人物设计变成行为压力，而不是简历式背景墙。
 
-## 1. Build From Pressure, Not Labels
+## 1. 从压力出发，不从标签出发
 
-For each important character, define:
+每个重要人物都要明确：
 
-- visible desire
-- hidden need
-- main obstacle
-- price of pursuit
-- fear
-- shame point
-- emotional or moral debt
-- contradiction
+- 看得见的欲望
+- 藏起来的需要
+- 主要阻碍
+- 追求这件事要付出的代价
+- 害怕什么
+- 羞耻点在哪里
+- 情感债或道德债是什么
+- 内在矛盾是什么
 
-If a character can be summarized only as "smart", "cold", or "kind", the design is still too thin.
+如果一个人物只能被概括成“聪明”“冷”“善良”，设计还太薄。
 
-## 2. Core Personality Must Predict Behavior
+## 2. 核心性格必须能预测行为
 
-The protagonist's core personality should answer:
+主角的核心性格应该能回答：
 
-- what they do first under pressure
-- what they refuse to admit
-- what they overuse as defense
-- what kind of mistake they repeat
-- what kind of temptation reliably works on them
+- 一受压，他最先会做什么
+- 他最不肯承认什么
+- 他最常拿什么当防御
+- 他会反复犯哪一种错
+- 哪种诱惑最容易击中他
 
-Do not store personality as adjective clusters only. Translate it into action patterns.
+不要只把性格存成一串形容词，要把它翻译成行动模式。
 
-## 3. Stress Response Is Mandatory
+## 3. 必须记录受压反应
 
-For main cast, record how they behave when pressure rises:
+核心人物都要记录：压力升高时，他通常怎么做。
 
-- attack
-- withdraw
-- joke
-- over-control
-- confess too much
-- conceal harder
+可能是：
 
-Long fiction needs pressure behavior because arc changes become visible only against a stable baseline.
+- 攻击
+- 后退
+- 开玩笑
+- 过度控制
+- 说太多真话
+- 藏得更死
 
-## 4. Arc Progress Happens In Stages
+长篇需要这种稳定基线。只有先知道人物平时怎么抗压，后面的弧线变化才看得出来。
 
-Track arc movement through stages rather than one final transformation:
+## 4. 弧线推进要分阶段
 
-1. defended self
-2. first crack
-3. compensating overreach
-4. forced recognition
-5. costly change or tragic refusal
+不要把人物弧线只写成“最后会变成什么人”，而要拆阶段：
 
-If no stage changes between chapters, the arc is probably stalled.
+1. 防守中的自我
+2. 第一道裂缝
+3. 补偿式过度用力
+4. 被迫看清
+5. 付代价的改变，或悲剧性拒绝改变
 
-## 5. Supporting Characters Need Independent Logic
+如果连续几章都没有任何阶段移动，人物弧线很可能停住了。
 
-Every recurring supporting character should have at least:
+## 5. 配角也要有自己的逻辑
 
-- private desire
-- pressure from the world
-- relation to the protagonist
-- line they would pursue even off-screen
+每个反复出现的配角，至少要有：
 
-If a supporting character exists only to advise, rescue, praise, or obstruct, rebuild them.
+- 私人欲望
+- 来自世界的压力
+- 与主角的关系功能
+- 即使不在镜头里，他也会继续追的一条线
 
-## 6. Relationship Design Carries Character Truth
+如果一个配角只负责建议、救援、夸主角或挡路，就要重建。
 
-Character becomes legible through relationships. Track:
+## 6. 关系设计承载人物真相
 
-- who sees them correctly
-- who misreads them
-- who activates their shame
-- who tempts their worst pattern
-- who makes change possible
+人物常常是通过关系被读懂的。需要记录：
 
-## 7. Voice Starts In Value And Rhythm
+- 谁真正看懂他
+- 谁误读他
+- 谁会激活他的羞耻
+- 谁会诱出他最糟的模式
+- 谁让改变变得可能
 
-Speech signature should come from:
+## 7. 声音来自价值和节奏
 
-- education or social position
-- emotional restraint level
-- speed of thought
-- use of metaphor or literal language
-- comfort with directness
+说话特征来自：
 
-Do not force every character to sound sharply distinctive on the surface. Distinction can come from rhythm, omission, and pressure response.
+- 教育背景或社会位置
+- 情绪收束程度
+- 思考速度
+- 是爱用比喻，还是更偏字面表达
+- 对直接表达的舒适度
 
-## 8. Character Check Before Outline Approval
+不要强迫每个人都在表面上“特别有辨识度”。差异也可以来自节奏、省略和受压反应。
 
-Reject a character design if:
+## 8. 大纲确认前的人物检查
 
-- desire is generic
-- obstacle is only external
-- no shame, debt, or contradiction exists
-- behavior under pressure is unknown
-- the supporting cast all serve the same narrative function
+出现以下情况时，不要接受人物设计：
 
-## 9. Chapter-Level Character Questions
+- 欲望太泛
+- 障碍只有外部阻碍
+- 没有羞耻、债务或矛盾
+- 不知道他受压时会怎么做
+- 配角群都在承担同一种叙事功能
 
-Before each chapter, ask:
+## 9. 章前人物问题
 
-- what does this character want right now
-- what do they fear being seen as
-- what old debt or wound is active
-- what small arc increment can happen here
-- how should this affect behavior or dialogue
+每章动笔前，问：
 
-## 10. Drift Alarm
+- 这个人物眼下想要什么
+- 他害怕别人把他看成什么样
+- 哪个旧债或旧伤正在生效
+- 这里能发生多小的一步弧线推进
+- 这一步应该怎样改变他的动作或对白
 
-Possible drift exists when:
+## 10. 走形警报
 
-- the character makes a plot-convenient move with no bridge
-- their speech style changes without cause
-- their desire changes because the outline needs it
-- major pressure produces no emotional trace
+出现以下情况时，人物可能已经走形：
+
+- 他做了一个方便剧情的动作，却没有心理或行动桥梁
+- 说话风格无缘无故变了
+- 欲望变化只是因为大纲需要
+- 重大压力发生后，人物身上没有留下任何情绪痕迹

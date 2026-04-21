@@ -1,111 +1,111 @@
-# Chapter Architecture Rules
+# 章节结构规则 (Chapter Architecture Rules)
 
-Use this when building chapter roadmaps, writing chapter control cards, or revising scene flow.
+当你在搭章节路线图、写章节控制卡，或修一章的场景流动时，读这一份。
 
-Goal: make each chapter structurally necessary rather than just sequential.
+目标是：让每一章都有结构上的必要性，而不是只是按顺序发生了一些事。
 
-## 1. Every Chapter Needs A Mission
+## 1. 每一章都要有任务
 
-Know before drafting:
+动笔前先确认：
 
-- what must change
-- which line advances
-- which debt returns
-- what residue remains after the chapter ends
+- 本章必须改变什么
+- 哪一条线要往前走
+- 哪一笔旧债要回来
+- 本章结束后留下什么余味或未平的压力
 
-If none of these are clear, the chapter is not ready.
+这些都不清楚时，这一章还没准备好。
 
-## 2. Enter Late Enough
+## 2. 入场要足够晚
 
-Start the chapter where pressure is already live:
+章节应该从压力已经活起来的地方开始，比如：
 
-- decision point
-- unstable conversation
-- approaching consequence
-- active investigation
-- emotional aftershock
+- 一个选择马上要做
+- 一段谈话已经不稳
+- 后果正在逼近
+- 调查已经进入动作
+- 上一章的情绪余震还没散
 
-Do not spend the first section warming up what the previous chapter already prepared.
+不要把前一章已经准备好的内容，在本章开头再暖一遍。
 
-## 3. Mid-Chapter Needs A Turn
+## 3. 章中必须有一次转向
 
-Some structural shift should occur:
+中段至少要发生某种结构性变化，例如：
 
-- new information
-- power reversal
-- value collision
-- failed plan
-- unexpected cost
-- emotional exposure
+- 新信息出现
+- 权力位置反转
+- 价值观发生碰撞
+- 计划失败
+- 代价突然抬高
+- 情绪或秘密被迫暴露
 
-Without a turn, the chapter often feels flat even if events happen.
+如果没有转向，就算事情很多，章节也容易读起来发平。
 
-## 4. Local Closure And Carryover Debt
+## 4. 局部收束与延续债
 
-A strong chapter usually does both:
+一章有力，通常要同时做到两件事：
 
-- closes something local
-- opens or deepens something larger
+- 让一个局部问题暂时落地
+- 让更大的问题打开、加深或变贵
 
-Examples:
+例如：
 
-- local argument ends, but trust is damaged
-- clue is found, but suspicion shifts
-- intimacy increases, but debt grows
+- 争吵结束了，但信任被打坏了
+- 线索找到了，但怀疑对象变了
+- 亲密增加了，但债也更重了
 
-## 5. Residue Matters
+## 5. 结尾要有余波，不只是响动
 
-End the chapter with residue, not only noise:
+章节末尾应该留下某种余波，比如：
 
-- changed meaning
-- new danger
-- unpaid debt
-- new obligation
-- damaged belief
+- 意义变了
+- 新危险露面
+- 债还没还完
+- 新义务压上来
+- 原来的信念被打坏
 
-Residue is what makes continuation feel earned.
+余波是读者觉得“下一章必须看”的理由。
 
-## 6. Alternate Pressure Shapes
+## 6. 压力形状要轮换
 
-Not every chapter should use the same structure. Rotate among:
+不是每一章都该用同一种结构。可以在这些形状之间轮换：
 
-- pursuit chapter
-- negotiation chapter
-- revelation chapter
-- fallout chapter
-- preparation chapter
-- collision chapter
+- 追赶章
+- 谈判章
+- 揭示章
+- 后果章
+- 准备章
+- 正面碰撞章
 
-Variation helps long fiction stay alive.
+长篇靠变化保持活力；同一种章法反复用，会很快钝掉。
 
-## 7. Chapter Title Must Match The Chapter Itself
+## 7. 标题必须贴合本章
 
-When the project uses chapter titles:
+如果项目使用章节标题：
 
-- the title should reinforce mission, turn, residue, orientation, or motif
-- the title should not summarize the chapter's full event chain
-- the title should create pull without stealing the chapter's discovery
-- the title may be revised after drafting if the chapter's real center changed
+- 标题应该强化本章任务、转向、余波、位置感或母题
+- 标题不要把整章事件链完整总结出来
+- 标题要制造拉力，但不能提前偷走章节里的发现
+- 如果写完后发现章节真正中心变了，标题可以重定
 
-## 8. Structure Must Match Mode
+## 8. 结构要服从作品模式
 
-- heat-forward mode may push sharper hooks and tighter chapter-end pull
-- reputation-forward mode may lean harder on residue and thematic pressure
-- dual-high balance needs both readability and aftereffect
+- 偏热度的模式，可以把钩子切得更锋利，把章尾拉力做得更强
+- 偏口碑的模式，可以更看重余波、主题压力和关系后效
+- 双高平衡时，要同时照顾可读性、推进力和读后留下的后劲
 
-## 9. Chapter Revision Questions
+## 9. 修章节时先问这些
 
-- where does this chapter truly begin
-- what is the pivot
-- what closes locally
-- what carries forward
-- what line went cold and needs attention
-- what human pressure became clearer here
+- 这一章真正应该从哪里开始
+- 本章的转轴在哪里
+- 哪个局部问题被解决或暂时按住了
+- 哪个问题被带到后面去了
+- 哪条线已经变冷，需要补一触或给出合理休眠
+- 本章让哪种人的压力变得更清楚了
 
-## 10. Failure Signals
+## 10. 失败信号
 
-- chapter exists only to move people into place
-- start is too early
-- middle has no turn
-- ending is abrupt but empty
-- no local closure and no carryover debt
+- 这一章只是把人物移动到下一个地点
+- 开头太早，前摇太长
+- 中段没有转向
+- 结尾看似突然，其实没有新条件
+- 没有局部收束，也没有延续债

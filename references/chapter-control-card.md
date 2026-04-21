@@ -1,14 +1,13 @@
-# Chapter Control Card
+# 章节控制卡 (Chapter Control Card)
 
-Generate this before drafting every chapter.
+每章起草前先生成这一张卡。
 
-Persist each accepted card to `control-cards/NN-<chapter-title>-control-card.md`.
-If the chapter title changes after drafting, rename the file during the same writeback pass so the card stays aligned with the accepted chapter manuscript in `chapters/`.
+每章接受后，将控制卡保存到 `control-cards/NN-<chapter-title>-control-card.md`。如果成稿标题发生变化，要在同一次回写里重命名控制卡，使其与 `chapters/` 里的接受稿一致。
 
 ```markdown
-# Chapter Control Card
+# 章节控制卡
 
-## Chapter Identity
+## 章节身份
 - chapter:
 - mode:
 - point_of_view:
@@ -17,12 +16,12 @@ If the chapter title changes after drafting, rename the file during the same wri
 - paragraph_mode:
 - style_intensity:
 
-## Chapter Mission
+## 本章任务
 - core_goal:
 - required_plotlines:
 - required_prior_debts:
 
-## Chapter Title
+## 章节标题
 - title_mode:
 - title_system_reference:
 - primary_title_job:
@@ -33,7 +32,7 @@ If the chapter title changes after drafting, rename the file during the same wri
 - spoiler_risk:
 - final_title_recheck:
 
-## Recall And Return Pressure
+## 召回与返场压力
 - retrieval_slice_targets:
 - cold_lines_due:
 - characters_due_for_return:
@@ -41,12 +40,12 @@ If the chapter title changes after drafting, rename the file during the same wri
 - foreshadows_due_or_overdue:
 - world_rules_in_play:
 
-## Conflict
+## 冲突
 - external_conflict:
 - internal_conflict:
 - relational_conflict:
 
-## Character Use
+## 人物使用
 - appearing_characters:
 - character_desires_this_chapter:
 - character_concealments_this_chapter:
@@ -54,12 +53,12 @@ If the chapter title changes after drafting, rename the file during the same wri
 - character_increment:
 - arc_progression_point:
 
-## Foreshadowing
+## 伏笔
 - new_plants:
 - active_callbacks:
 - blocked_reveals:
 
-## Scene Execution
+## 场景执行
 - scene_pressure_shape:
 - planned_unit_count:
 - scene_units:
@@ -70,14 +69,14 @@ If the chapter title changes after drafting, rename the file during the same wri
     - carryover:
   - add_more_if_needed:
 
-## Theme Pressure
+## 主题压力
 - human_truth_exposed:
 - central_question_pressure:
 - value_collision:
 - social_or_era_pressure:
 - motif_or_image_return:
 
-## Style Execution
+## 风格执行
 - internalized_strengths:
 - active_style_drivers:
 - primary_style_payoff:
@@ -90,23 +89,23 @@ If the chapter title changes after drafting, rename the file during the same wri
 - optional_effects:
 - forbidden_drift:
 - language_signature_task:
-    # Fill with three specific items:
-    # 1. the point-of-view character's perceptual habit in this chapter — concrete to this person, not a generic adjective like "细腻"
-    # 2. the material details already present in this scene that can carry pressure — not "need a detail here" but "what is already here"
-    # 3. comparison or personification types forbidden in this chapter — e.g. "no body-organ personification of places", "no generic mood similes using 像X一样"
+    # 填三个具体项：
+    # 1. 本章视角人物的感知习惯，要具体到这个人，不要写“细腻”这类泛词
+    # 2. 场景中已经存在、能承担压力的物质细节，不要写“这里需要一个细节”
+    # 3. 本章禁用的比喻/拟人类型，例如“不要把地点拟人成身体器官”“不要使用通用 mood 比喻”
 - dialogue_task:
 - suspense_task:
 - structure_task:
 - authenticity_focus:
-    # Fill with two specific items:
-    # 1. the carrier for emotional color in this chapter — choose one: action / choice / physical detail / dialogue rhythm / silence
-    #    do not use comparison or interior summary to name the emotion directly
-    # 2. the modular-language risk most likely to appear in this chapter — name the specific pattern to watch for
+    # 填两个具体项：
+    # 1. 本章情绪色彩的承载方式，从 action / choice / physical_detail / dialogue_rhythm / silence 中选
+    #    不要靠比喻或内心总结直接命名情绪
+    # 2. 本章最容易出现的模块化语言风险，要点明具体句式或模式
 - hook_type:
 - closure_type:
 - theme_landing_action:
 
-## Risk Scan
+## 风险扫描
 - missing_information:
 - conflicts_found:
 - continuity_risks:
@@ -114,7 +113,7 @@ If the chapter title changes after drafting, rename the file during the same wri
 - trope_convenience_risk:
 - user_branch:
 
-## Benchmark Check
+## 基准检查
 - benchmark_group:
 - hard_gates:
 - down_weighted_checks:
@@ -122,32 +121,32 @@ If the chapter title changes after drafting, rename the file during the same wri
 - failed_dimensions:
 - rewrite_direction_if_failed:
 
-## Marathon Control
+## 马拉松控制
 - marathon_mode:
 - next_line_auto_entry:
 
-## Ending Hook
+## 章尾钩子
 - chapter_end_hook:
 ```
 
-Minimum standard:
+最低标准：
 
-- most chapters should advance at least one main obligation; quieter bridge chapters may instead deepen cost, reposition a line, or make an existing debt heavier
-- most chapters should carry at least one emotional or structural debt forward unless the chapter is intentionally closing a phase
-- every chapter must identify recall and return pressure when the project has recurring density
-- every chapter must expose one human pressure, not only chapter logistics
-- every chapter must either define scene progression or consciously justify a looser structure
-- every chapter may use as few or as many scene units as the chapter genuinely needs
-- every chapter must state how benchmark expectations were met, softened, or intentionally down-weighted
-- every chapter must define dialogue, suspense, or structure tasks when those pressures are active
-- every chapter must mark authenticity focus when prose risks generic drift
-- every chapter must inherit paragraph mode from `09-style-guide.md` unless the control card records a chapter-specific override and reason
-- under `web-serial-natural`, narrative paragraphs should usually carry `2-4` sentences; single-sentence narrative paragraphs need a real pressure job and should not stack by habit
-- paragraph breaks should track speaker change, scene/time/point-of-view shift, or pressure turn rather than decorative blank space
-- when style pressure is meaningful, the card should name `1-2` active style drivers instead of vague adjectives
-- chapters may keep style intensity low when they are bridging, recovering, or quietly repositioning, but should still preserve some line of stylistic continuity
-- if a primary or support style is active, the card should note what kind of payoff this chapter is trying to deliver and what pseudo-style drift must be avoided
-- if titled chapters are active, every control card must generate `3-5` candidates and choose one working title
-- a chapter title must signal pressure, orientation, or residue rather than summarize the whole chapter
-- a working title may change after drafting if the chapter's true center moved
-- every hook must connect to an existing line, not a random surprise
+- 多数章节至少推进一项主要义务；安静过桥章也必须加深代价、重摆某条线，或让旧债更沉
+- 多数章节至少带出一笔情绪债或结构债，除非它明确是在收束一个阶段
+- 只要项目有高密度返场，控制卡就必须写明召回与返场压力
+- 每章都要暴露一种人的压力，不能只有章节调度
+- 每章要么明确场景推进，要么说明为什么本章故意采用更松的结构
+- 场景单元数量服从章节需要，不为凑数硬拆
+- 每章要说明基准期待如何被满足、软化或有意降权
+- 对话、悬念或结构压力活跃时，必须写明对应任务
+- 文字容易泛化时，必须写明真实感校正重点
+- 段落模式默认继承 `09-style-guide.md`；若本章覆盖，必须写理由
+- 在 `web-serial-natural` 下，叙述段通常 `2-4` 句；单句段必须有真实压力任务，不要堆叠成习惯
+- 段落断开应服务说话人变化、时空/视角变化或压力转折，而不是装饰空白
+- 风格压力明显时，控制卡要点名 `1-2` 个活跃风格驱动，不要只写抽象形容词
+- 过桥、恢复或安静摆位章节可以降低风格强度，但仍要保留风格连续性
+- 如果主风格或副风格处于活跃状态，控制卡要写明本章想交付的效果，以及要避开的伪风格漂移
+- 如果项目使用章节标题，每张控制卡都要生成 `3-5` 个候选，并选择一个工作标题
+- 标题要提示压力、方位或余味，不要总结整章事件链
+- 如果成稿真正中心发生移动，工作标题可以改
+- 每个钩子都必须接在已有线上，不能靠随机惊吓

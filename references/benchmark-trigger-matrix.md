@@ -1,84 +1,91 @@
-# Benchmark Trigger Matrix
+# 基准触发矩阵 (Benchmark Trigger Matrix)
 
-Use this to map user intent to benchmark rule loading.
+用来把用户意图映射到需要加载的基准规则。
 
-## Covered Genres
+## 已覆盖类型
 
-- historical, dynasty struggle, court struggle, war-state build:
-  - load `historical power struggle`
-- realism, urban, contemporary struggle, social healing:
-  - load `contemporary realism / urban reality`
-- suspense, mystery, detective, puzzle, crime:
-  - load `suspense / mystery / fair-play puzzle`
-- ancient romance, career-growth romance, female profession growth:
-  - load `ancient romance / profession-growth`
-- infinite flow, game survival, rule survival, ensemble strategy:
-  - load `ensemble game / infinite-flow / rules-based survival`
-- literary, serious, restrained, experimental:
-  - load `serious / literary / experimental`
+- 历史、王朝斗争、宫廷权谋、战争建制：
+  - 加载 `historical power struggle / 历史权谋`
+- 现实主义、都市、当代奋斗、社会修复：
+  - 加载 `contemporary realism / urban reality / 当代现实`
+- 悬疑、推理、侦探、谜题、犯罪：
+  - 加载 `suspense / mystery / fair-play puzzle / 悬疑推理`
+- 古言、职业成长言情、女性职业成长：
+  - 加载 `ancient romance / profession-growth / 古言与职业成长`
+- 无限流、游戏生存、规则生存、群像策略：
+  - 加载 `ensemble game / infinite-flow / rules-based survival / 规则生存`
+- 文学、严肃、克制、实验：
+  - 加载 `serious / literary / experimental / 文学实验`
+- 系统文、金手指爽文、力量幻想：
+  - 加载 `system fiction / power fantasy / 系统文爽文`
 
-## Hybrid Mode
+## 混合模式
 
-If the work clearly combines two covered genres:
+如果作品明显混合两种已覆盖类型：
 
-- choose one primary benchmark group
-- choose at most one support benchmark group
-- write both into `09-style-guide.md`
-- do not let support logic erase the primary promise
+- 选择一个主基准组
+- 最多选择一个副基准组
+- 把两者写进 `09-style-guide.md`
+- 副基准只能补充，不能抹掉主类型承诺
 
-## Uncovered Genres
+## 未覆盖类型
 
-If the genre is not directly covered:
+如果类型没有直接覆盖：
 
-- load `popular-fiction-common-laws.md`
-- identify the nearest benchmark group by:
-  - conflict type
-  - pacing promise
-  - reader expectation
-  - dominant narrative engine
-- record the fallback in `09-style-guide.md`
+- 加载 `popular-fiction-common-laws.md`
+- 根据以下维度找最近基准组：
+  - 冲突类型
+  - 节奏承诺
+  - 读者期待
+  - 主导叙事引擎
+- 把 fallback 选择写进 `09-style-guide.md`
 
-## Target Modes
+## 目标模式
 
-- heat-oriented:
-  - stronger hook density
-  - stronger carryover debt
-  - faster closure/reopen rhythm
-- reputation-oriented:
-  - stronger thematic residue
-  - deeper character increment
-  - higher language and structure discipline
-- dual-high balance:
-  - require both readability and deeper residue
+偏热度：
 
-## Dynamic Down-Weighting
+- 钩子密度更高
+- 延续债更强
+- 收束/重开节奏更快
 
-If the user explicitly requests:
+偏口碑：
 
-- slow-burn
-- restrained intensity
-- anti-formula
-- experimental
-- literary patience
+- 主题余味更强
+- 人物增量更深
+- 语言和结构纪律更高
 
-Then down-weight but do not remove:
+双高平衡：
 
-- hook density
-- twist frequency
-- stimulation intensity
-- cliff severity
+- 同时要求可读性和更深余味
 
-Keep hard:
+## 动态降权
 
-- character dimensionality
-- logic coherence
-- theme landing
-- originality and compliance
+如果用户明确要求：
 
-## Refusal Conditions
+- 慢热
+- 克制强度
+- 反公式
+- 实验
+- 文学耐心
 
-Do not use this matrix to justify:
+可以降权但不能取消：
 
-- forcing high-stimulation pacing onto a restrained project
-- forcing literary drag onto a market-forward project
-- copying a benchmark sample's recognizable trick
+- 钩子密度
+- 反转频率
+- 刺激强度
+- 断章激烈程度
+
+仍然是硬门槛：
+
+- 人物维度
+- 逻辑自洽
+- 主题落地
+- 原创性与合规
+
+## 禁用条件
+
+不要用这个矩阵来辩护：
+
+- 把高刺激节奏强压给克制项目
+- 把文学拖滞强压给市场向项目
+- 复制基准样本的招牌技巧

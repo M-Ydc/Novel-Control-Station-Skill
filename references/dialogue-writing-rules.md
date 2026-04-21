@@ -1,108 +1,111 @@
-# Dialogue Writing Rules
+# 对话写作规则 (Dialogue Writing Rules)
 
-Use this when planning scenes, revising dialogue, or checking chapter voice control.
+当你在设计场景、修改对白，或者检查章节声音控制时，读这一份。
 
-Goal: make dialogue carry character, relation, and pressure rather than just information.
+目标是：让对白同时承担人物、关系和压力，而不是只负责把信息说出来。
 
-## 1. Dialogue Must Do More Than Explain
+## 1. 对话不能只负责说明情况
 
-Every important exchange should do at least two of these:
+一段重要对白，至少要同时做到下面两件事中的两项：
 
-- move plot
-- expose character
-- change relationship pressure
-- hide something
-- reveal something indirectly
+- 推剧情
+- 露人物
+- 改变关系压力
+- 藏住某件事
+- 间接透露某件事
 
-If the line only explains background, compress it or move the information elsewhere.
+如果一句对白只是解释背景，没有别的作用，就要压缩，或换地方交代。
 
-## 2. Voice Comes From Pressure And Position
+## 2. 声音差异来自压力和位置
 
-Differentiate speakers by:
+区分说话人，不要靠口头禅堆砌，而要看：
 
-- sentence length
-- degree of directness
-- comfort with emotion
-- habit of evasion or confrontation
-- social rank or education
-- what they refuse to say plainly
+- 句子长短
+- 说话是直还是绕
+- 面对情绪时是收着还是冲出来
+- 遇事爱回避还是爱顶撞
+- 他的社会位置、教育背景和日常习惯
+- 他最不愿意明说的东西是什么
 
-Voice is not catchphrase spam.
+人物的声音，应该从他承受什么、护着什么、怕什么里长出来。
 
-## 3. Subtext Is Often Stronger Than Statement
+## 3. 很多时候，弦外之音比直说更有力
 
-Useful moves:
+常用做法：
 
-- answer the wrong question
-- speak around the real subject
-- under-react to something painful
-- use a practical action to carry emotional meaning
-- let one character hear more than the other intends
+- 问东答西
+- 绕开真正的话题
+- 对痛处反应过轻
+- 用一个实用动作去承载情绪
+- 让其中一方听出来的东西，比另一方明说的更多
 
-## 4. Silence Is Part Of Dialogue
+## 4. 沉默本身也是对白的一部分
 
-Use silence, interruption, and delay to show:
+停顿、打断、迟疑、故意不接话，都能表现：
 
-- resistance
-- humiliation
-- calculation
-- attraction
-- fear
-- power imbalance
+- 抵抗
+- 羞辱
+- 盘算
+- 吸引
+- 害怕
+- 权力高低
 
-Silence without pressure is blankness. Silence with pressure is dialogue.
+没有压力的沉默只是空；有压力的沉默，本身就是对白。
 
-## 5. Exposition Through Conflict
+## 5. 必须交代信息时，也要让它带着冲突出来
 
-If information must appear in dialogue:
+如果某段信息一定得通过对白出现，就把它挂在这些东西上：
 
-- attach it to disagreement
-- attach it to stakes
-- attach it to status or emotional cost
+- 分歧
+- 利害
+- 身份高低
+- 情绪代价
 
-Avoid:
+尽量避开：
 
-- two people telling each other what both already know
-- authorial speeches disguised as character wisdom
+- 两个人把彼此早就知道的事重新互相复述一遍
+- 作者借人物之口发表高明感言
 
-## 6. Rhythm Matters
+## 6. 节奏要有弹性
 
-Check:
+逐句检查：
 
-- can the line be shorter
-- is the strongest phrase at the end
-- does the reply land too cleanly
-- should someone evade, interrupt, or refuse instead
+- 这句还能不能更短
+- 最有力的词是不是落在句尾
+- 回答是不是太顺、太圆了
+- 这里是不是应该有人闪躲、打断、拒绝，或者故意不接
 
-Fast scenes need cleaner turns. Heavy scenes may need pause and drag.
+快场景需要更干净的来回；重场景可以允许拖、停和回避。
 
-## 7. Dialogue And Character Core Personality
+## 7. 主角的核心性格一定要落进对白里
 
-The protagonist's core personality must show up in speech:
+主角的说话方式里，至少要能看出他的核心习性，比如：
 
-- defensive humor
-- blunt force
-- over-control
-- self-cancellation
-- moralizing
-- seductive softness
+- 防御性的玩笑
+- 硬顶上去的劲
+- 过度控制
+- 自我否定
+- 道德化说话
+- 软着来但其实有牵引力
 
-If the protagonist sounds interchangeable across moods, revise.
+如果主角换个场景、换种情绪，说话还是像谁都能说的中性句，就得重写。
 
-## 8. Dialogue Revision Questions
+## 8. 对白修改时要问的几个问题
 
-For each important exchange, ask:
+每一段重要对白，都问自己：
 
-- what is each person trying to get
-- what is each person hiding
-- where does the power move
-- what changes after this exchange
-- which line could be cut because the scene already shows it
+- 每个人眼下到底想要什么
+- 每个人在藏什么
+- 权力在这段话里往哪边移了
+- 这轮对话结束后，关系发生了什么变化
+- 哪一句其实可以删掉，因为场景已经把它演出来了
 
-## 9. Common Failures
+## 9. 常见失败迹象
 
-- dialogue that reports instead of pressures
-- everyone speaking with the same polish
-- emotional confession with no resistance
-- exposition disguised as banter
-- arguments with no change in relation
+- 对白像在汇报情况，而不是在施压
+- 所有人都说得一样圆滑、一样顺
+- 情绪坦白来得太轻易，没有抵抗
+- 以打趣的形式塞说明书
+- 吵是吵了，但关系一点没变
+
+对白要像人和人之间真的在较劲、试探、躲避、求证，而不是作者在安排台词。

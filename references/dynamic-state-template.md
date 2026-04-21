@@ -1,19 +1,19 @@
-# Dynamic State Template
+# 动态状态模板 (Dynamic State Template)
 
-Use this as the authoritative post-chapter truth state.
+这是章后事实状态的主文件模板。它记录当前项目真相，不记录聊天想法和过程评论。
 
 ```markdown
-# Dynamic State
+# 动态状态
 
-## Latest Chapter
+## 最新章节
 - chapter:
 - written_at:
 - mode:
 
-## Key Events
-- 
+## 关键事件
+-
 
-## Character State Changes
+## 人物状态变化
 - character:
   - external_change:
   - internal_change:
@@ -22,21 +22,21 @@ Use this as the authoritative post-chapter truth state.
   - dialogue_state_change:
   - last_meaningful_presence:
 
-## Relationship Changes
+## 关系变化
 - relationship:
   - previous_state:
   - current_state:
   - last_bridge_event:
   - unresolved_debt:
 
-## Plotline Progress
+## 主线推进
 - main_line:
 - side_line_1:
 - side_line_2:
 - hidden_line:
 - lines_running_cold:
 
-## Foreshadow Updates
+## 伏笔更新
 - new_plants:
 - activated_items:
 - paid_off_items:
@@ -44,53 +44,54 @@ Use this as the authoritative post-chapter truth state.
 - due_soon_items:
 - overdue_items:
 
-## World And Rule Updates
-- 
+## 世界与规则更新
+-
 
-## Emotional Debts Promises Wounds
-- 
+## 情感债、承诺与伤口
+-
 
-## Active Theme Pressure
-- 
+## 当前主题压力
+-
 
-## Active Suspense Pool
-- 
+## 当前悬念池
+-
 
-## Unresolved Hooks
-- 
+## 未解决钩子
+-
 
-## Retrieval And Return Pressure
+## 检索与返场压力
 - core_characters_due:
 - relationships_due:
 - lines_due_for_touch:
 - foreshadows_due_or_overdue:
 - world_rules_requiring_recall:
 
-## Expectation Management State
+## 读者预期管理
 - benchmark_group:
 - down_weighted_checks:
 - current_reader_promise:
 
-## Chapter Chain Position
-- 
+## 章节链位置
+-
 
-## Line Completion State
+## 线完成状态
 - main_line_completion:
 - side_line_completion:
 - hidden_line_completion:
 
-## Near Finish Indicator
-- 
+## 临近收束指标
+-
 
-## Temporary Assumptions Pending Confirmation
-- 
+## 待确认临时假设
+-
 
-## Carryover Into Next Chapter
-- 
+## 下一章延续项
+-
 ```
 
-Rules:
+规则：
 
-- store only current project truth here
-- do not mix commentary with state
-- if an assumption later proves false, remove or amend it explicitly
+- 这里只存当前项目事实，不存讨论过程
+- 不要把评论、解释和状态混在一起
+- 临时假设后来被推翻时，要明确删除或改写
+- 本章已解决的延续项要移除，不要长期堆积

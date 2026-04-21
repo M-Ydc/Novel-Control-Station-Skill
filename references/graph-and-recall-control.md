@@ -1,109 +1,109 @@
-# Graph And Recall Control
+# 图谱与召回控制 (Graph And Recall Control)
 
-Use this when recurring cast, plotline interference, or foreshadow density makes simple linear rereading too blunt.
+当角色反复返场、线与线相互干扰、伏笔密度高，单纯线性重读已经不够快时，使用这一份。
 
-Goal: convert the current canon into a temporary recall graph, then read only the slices the next chapter truly needs.
+目标是：把当前 canon 临时转成召回图谱，再只读取下一章真正需要的切片。
 
-## 1. Canon First
+## 1. Canon 优先
 
-The standard project files and `08-dynamic-state.md` are the story truth.
+标准项目文件和 `08-dynamic-state.md` 是故事真相。
 
-Any graph, node map, edge list, or scratch recall sheet is derived only.
+任何 graph / node map / edge list / scratch recall sheet 都只是派生工具。
 
-Never:
+绝对不要：
 
-- repair continuity by editing the scratch graph only
-- trust the graph over the standard files
-- let the derived view become newer than the canonical documents
+- 只改临时图谱来修连续性
+- 相信图谱胜过标准文件
+- 让派生视图比 canon 更新
 
-## 2. What Counts As A Node
+## 2. 什么算节点 (node)
 
-Useful node types:
+可用节点包括：
 
-- character
-- relationship cluster
-- plotline
-- foreshadow
-- event
-- place or institution
-- world rule
-- emotional debt or promise
+- 人物
+- 关系簇
+- 主线/支线
+- 伏笔
+- 事件
+- 地点或机构
+- 世界规则
+- 情感债或承诺
 
-Use only the nodes the chapter needs. Do not build a giant decorative schema for small projects.
+只建本章需要的节点。小项目不要做装饰性大图。
 
-## 3. What Counts As An Edge
+## 3. 什么算边 (edge)
 
-Useful edge types:
+可用边包括：
 
-- desire vs obstacle
-- alliance or enmity
-- secrecy or knowledge transfer
-- cause and effect
-- plant and payoff
-- rule and violation
-- debt and repayment pressure
-- return pressure
+- 欲望与阻碍
+- 同盟或敌对
+- 秘密或信息转移
+- 因果关系
+- 埋设与回收
+- 规则与违规
+- 债务与偿还压力
+- 返场压力
 
-If an edge has no effect on planning, drafting, or verification, it is noise.
+如果一条边不会影响规划、写作或验证，就是噪音。
 
-## 4. File-To-Graph Mapping
+## 4. 从文件映射到图谱
 
-Translate the existing files like this:
+按下面方式转译已有文件：
 
-- `02-worldbuilding.md` -> place, institution, and rule nodes
-- `03-cast-bible.md` -> character nodes and stable pressure traits
-- `04-relationship-map.md` -> relationship edges and tension shifts
-- `05-main-plotlines.md` -> plotline nodes, causal edges, and line interference
-- `06-foreshadow-ledger.md` -> plant/payoff edges and windows
-- `07-chapter-roadmap.md` -> upcoming pressure routes
-- `08-dynamic-state.md` -> current active states, hot edges, and recent deltas
+- `02-worldbuilding.md` -> 地点、机构、规则节点
+- `03-cast-bible.md` -> 人物节点和稳定压力特征
+- `04-relationship-map.md` -> 关系边和张力变化
+- `05-main-plotlines.md` -> 线节点、因果边、线间干扰
+- `06-foreshadow-ledger.md` -> 埋设/回收边和窗口
+- `07-chapter-roadmap.md` -> 后续压力路径
+- `08-dynamic-state.md` -> 当前活跃状态、热边和最近变化
 
-## 5. Pre-Chapter Recall Protocol
+## 5. 章前召回流程
 
-Before drafting:
+起草前：
 
-1. identify the chapter mission, point of view, and required lines
-2. pull only the relevant nodes and edges
-3. build a short retrieval slice covering:
-   - characters in play and their last meaningful presence
-   - relationships under pressure
-   - lines running hot
-   - lines running cold but due for return
-   - foreshadows due, near due, or blocked
-   - world rules that matter to this chapter
-   - active emotional debts
-4. if the slice exposes contradictions or missing bridges, use the missing information branch before drafting
+1. 确认本章任务、视角和必须推进的线
+2. 只抽取相关节点和边
+3. 做一份短召回切片，覆盖：
+   - 本章上场人物及其上一次有效存在
+   - 正在承压的关系
+   - 当前热线
+   - 已变冷但该回来的线
+   - 将到期、临近到期或被挡住的伏笔
+   - 本章需要记住的世界规则
+   - 活跃情感债
+4. 如果切片暴露矛盾或缺桥，先走信息缺失分支，再写正文
 
-The slice can stay temporary. It does not need a permanent file unless the project is unusually dense.
+这份切片可以是临时的。除非项目极度复杂，否则不必另建永久文件。
 
-Keep graph-style scratch notes outside `08-dynamic-state.md` unless a detail has become canonical story truth.
+图谱式草稿不要塞进 `08-dynamic-state.md`，除非某条信息已经成为 canon。
 
-## 6. Risk Questions
+## 6. 风险问题
 
-Use the recall graph to ask:
+用召回图谱检查：
 
-- is anyone acting on knowledge they do not have
-- does a relationship shift without a bridge
-- is a payoff appearing without enough load-bearing setup
-- is a line going cold by accident rather than design
-- is a world rule being used after long absence with no reminder
-- is a character or debt returning under the wrong pressure
+- 有没有人知道了他不该知道的信息
+- 关系变化是否缺桥
+- 回收点是否没有足够承重铺垫
+- 某条线是不是意外变冷，而不是有意休眠
+- 世界规则很久没出现后突然被使用，却没有提醒
+- 某个人物或债务是不是在错误压力下返场
 
-## 7. Writeback Protocol
+## 7. 回写流程
 
-After the chapter is accepted:
+章节接受后：
 
-1. update the canonical project files first
-2. refresh `08-dynamic-state.md`
-3. then sync any optional scratch graph or recall sheet
-4. record which nodes or edges materially changed only if that helps the next chapter
+1. 先更新 canon 项目文件
+2. 再刷新 `08-dynamic-state.md`
+3. 然后同步可选的草稿图谱或召回表
+4. 只有当节点或边的变化会帮助下一章时，才记录这些变化
 
-## 8. When To Skip
+## 8. 什么时候跳过
 
-Skip explicit graph handling when:
+以下情况可以不显式做图谱：
 
-- the work is short
-- the chapter has only one active line and low recurrence pressure
-- linear rereading is faster than abstraction
+- 作品很短
+- 本章只有一条活线，返场压力很低
+- 线性重读比抽象建图更快
 
-Graph thinking is a control tool, not a ritual.
+图谱思维是控制工具，不是仪式。

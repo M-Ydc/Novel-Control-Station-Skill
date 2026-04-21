@@ -1,10 +1,10 @@
-# Forgotten Elements And Line Heat
+# 遗忘元素与线热度 (Forgotten Elements And Line Heat)
 
-Use this when the novel has enough recurrence that characters, plotlines, relationships, or foreshadows can silently disappear.
+当小说已经有足够多的返场人物、主线、关系或伏笔，可能悄悄消失时，读这一份。
 
-Goal: stop accidental disappearance without forcing checklist cameos or formula callbacks.
+目标是：防止意外遗忘，但不要强塞清单式 cameo 或公式回调。
 
-Read from canonical sources first:
+先读 canon 来源：
 
 - `03-cast-bible.md`
 - `04-relationship-map.md`
@@ -12,83 +12,83 @@ Read from canonical sources first:
 - `06-foreshadow-ledger.md`
 - `08-dynamic-state.md`
 
-## 1. Track Meaningful Touch, Not Raw Mention
+## 1. 追踪有效触碰，不追踪单纯提名
 
-A meaningful touch is one of these:
+有效触碰包括：
 
-- direct advance
-- pressure reminder
-- altered relationship state
-- active consequence
-- justified dormancy note
+- 直接推进
+- 压力提醒
+- 关系状态改变
+- 后果仍在生效
+- 合理休眠说明
 
-A name drop or cosmetic reminder with no pressure change does not count.
+只点一次名字、给一个无压力的装饰性提醒，不算有效触碰。
 
-## 2. Heat States
+## 2. 热度状态
 
-Useful heat labels:
+可用标签：
 
-- hot: currently driving conflict or expectation
-- warm: not central this chapter, but recently alive
-- cold: at risk of being forgotten if ignored again
-- archived: intentionally closed or dormant
+- hot / 热：正在驱动冲突或期待
+- warm / 温：本章不是中心，但近期仍然活着
+- cold / 冷：再不处理就有被忘的风险
+- archived / 已归档：已经有意关闭或休眠
 
-Use heat as a prompt for judgment, not as an automatic scheduling machine.
+热度只是提醒你判断，不是自动排班机器。
 
-## 3. Default Review Thresholds
+## 3. 默认检查阈值
 
-Adjust by cast size and pacing, but review when:
+按人物数量和节奏调整，但通常在这些情况下检查：
 
-- a core recurring character goes roughly 3-5 chapters without meaningful touch
-- a major subplot goes roughly 4-6 chapters without advance, echo, or transfer
-- an active foreshadow skips two plausible return opportunities or passes its planned window
-- a volatile relationship shifts hard and then receives no bridge within two appearances
-- a world rule becomes suddenly important after long absence with no reminder
+- 核心返场人物约 `3-5` 章没有有效触碰
+- 主要支线约 `4-6` 章没有推进、回响或转移
+- 活跃伏笔跳过两次合理返场机会，或超过计划窗口
+- 不稳定关系发生大变化后，两次出场内没有桥梁
+- 世界规则很久没出现后突然变重要，却没有提醒
 
-## 4. Valid Responses
+## 4. 有效处理方式
 
-When something runs cold, choose one:
+某个元素变冷时，选一种最小但有效的回应：
 
-- direct advance
-- indirect reminder that changes expectation
-- pressure transfer to another line
-- justified dormancy note in dynamic state
-- closure or archive
+- 直接推进
+- 间接提醒，并改变读者预期
+- 把压力转移到另一条线
+- 在动态状态里写明合理休眠
+- 收束或归档
 
-Choose the smallest response that keeps the story honest.
+用能守住故事诚实的最小动作，不要为了清单硬塞戏。
 
-## 5. Invalid Responses
+## 5. 无效处理方式
 
-Avoid:
+避免：
 
-- token cameo
-- empty callback
-- random mention inserted only to satisfy a rule
-- resolving a line early just because it feels overdue
+- 点名 cameo
+- 空回调
+- 只为满足规则而插入的随机提及
+- 因为“感觉拖太久了”就提前解决一条线
 
-The element must re-enter for causal reasons.
+元素返场必须有因果理由。
 
-## 6. Chapter Questions
+## 6. 章前问题
 
-Before drafting, ask:
+起草前问：
 
-- what is hot and must be handled now
-- what is cold and due for touch
-- what can stay dormant if that dormancy is named and justified
-- what return would deepen pressure instead of merely reminding the reader
+- 哪些东西是热的，必须现在处理
+- 哪些东西已经冷了，该触碰
+- 哪些东西可以继续休眠，但需要说明理由
+- 什么样的返场会加深压力，而不是只提醒读者“它还在”
 
-## 7. Writeback
+## 7. 回写
 
-After the chapter:
+章节结束后：
 
-- update return pressure in `08-dynamic-state.md`
-- note which characters or lines were meaningfully touched
-- mark foreshadows as advanced, still pending, overdue, or intentionally delayed
-- if something remains cold by choice, say why
+- 更新 `08-dynamic-state.md` 里的返场压力
+- 记录哪些人物或线被有效触碰
+- 标记伏笔是推进、待回收、已超期，还是有意延迟
+- 如果某个元素被选择性继续放冷，要写明理由
 
-## 8. Failure Signals
+## 8. 失败信号
 
-- readers would reasonably ask where someone went
-- an important line disappears until the ending machinery suddenly needs it
-- a payoff lands but the setup has gone cold for too long
-- a relationship turns sharply without recent support
+- 读者会合理地问：这个人去哪了
+- 重要线一直消失，直到结尾机器突然需要它
+- 回收点到了，但铺垫已经冷太久
+- 关系突然大转弯，却没有近期支撑

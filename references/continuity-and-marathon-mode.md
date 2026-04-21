@@ -1,153 +1,154 @@
-# Continuity And Marathon Mode
+# 连续性与马拉松模式 (Continuity And Marathon Mode)
 
-Use this when continuing long fiction, repairing drift, or running nonstop chapter creation after the user approves outline and cast.
+继续长篇、修复漂移，或在用户批准大纲和人物档案后进行连续章节生产时使用。
 
-Goal: preserve story truth while allowing sustained output.
+目标是：在持续输出的同时守住故事事实。
 
-## 1. Pre-Chapter Read Discipline
+## 1. 章前读取纪律
 
-Before each chapter, read `08-dynamic-state.md` and `09-style-guide.md` first. Then prepare a retrieval slice:
+每章开始前，先读 `08-dynamic-state.md` 和 `09-style-guide.md`，再准备召回切片：
 
-- pull the chapter-relevant characters, relationships, plotlines, foreshadows, world rules, and debts from the dynamic state
-- mark what is hot, what is running cold, and what must not disappear here
-- read additional project files (`03-cast-bible.md`, `05-main-plotlines.md`, `06-foreshadow-ledger.md`, `07-chapter-roadmap.md`) only when the retrieval slice exposes a gap that requires the full file
-- read `00-project-overview.md` at project launch or after a major structural redirect; skip it in steady-state marathon chapters
+- 从动态状态里抽取本章相关的人物、关系、主线、伏笔、世界规则和债务
+- 标出哪些是热的、哪些在变冷、哪些本章不能消失
+- 只有当召回切片暴露缺口时，才补读 `03-cast-bible.md`、`05-main-plotlines.md`、`06-foreshadow-ledger.md`、`07-chapter-roadmap.md`
+- `00-project-overview.md` 只在项目启动或重大结构转向后重读；稳定马拉松章节不用每章读
 
-If the project is under major revision or structural redirect, also refresh the foundational and benchmark layers.
+如果项目正在大修或结构重定向，还要刷新基础原则和基准层。
 
-## 2. Post-Chapter Writeback Is Mandatory
+## 2. 章后必须回写
 
-After each accepted chapter, use tiered writeback:
+每章接受后，分层回写。
 
-Every chapter:
-- update `08-dynamic-state.md`:
-  - add new state for this chapter
-  - remove carryover items that this chapter resolved — do not let resolved items accumulate
-- write `chapters/NN-<title>.md` and `control-cards/NN-<title>-control-card.md`
-- append to `logs/writing-log.md`
+每章都做：
 
-Every 3-5 chapters or when content materially changed:
-- update `05-main-plotlines.md`, `06-foreshadow-ledger.md`, `07-chapter-roadmap.md`
-- when updating `06-foreshadow-ledger.md`: move any foreshadow paid off in this chapter to an `## Archive` section at the bottom of the file — do not delete, do not leave in the active list
-- when updating `07-chapter-roadmap.md`: move completed chapter slots to an `## Archive` section at the bottom of the file
+- 更新 `08-dynamic-state.md`
+  - 加入本章新状态
+  - 删除本章已经解决的延续项，不要让已解决项继续堆积
+- 写入 `chapters/NN-<title>.md` 和 `control-cards/NN-<title>-control-card.md`
+- 追加 `logs/writing-log.md`
 
-Only when content actually changed:
-- update `02-worldbuilding.md`, `03-cast-bible.md`, `04-relationship-map.md`
+每 `3-5` 章，或内容发生实质变化时：
 
-Do not write back files that have not changed. `08-dynamic-state.md` is the live state; the other files are stable canon updated on demand.
+- 更新 `05-main-plotlines.md`、`06-foreshadow-ledger.md`、`07-chapter-roadmap.md`
+- 更新 `06-foreshadow-ledger.md` 时，把本章已回收伏笔移到文件底部 `## Archive`，不要删除，也不要继续留在活跃列表
+- 更新 `07-chapter-roadmap.md` 时，把已完成章节槽移到文件底部 `## Archive`
 
-Sync any optional secondary control view only after canonical files are current.
+只有内容真的变化时才做：
 
-Do not treat marathon speed as an excuse to skip writeback.
+- 更新 `02-worldbuilding.md`、`03-cast-bible.md`、`04-relationship-map.md`
 
-## 3. Drift Alarms
+没有变化的文件不要写回。`08-dynamic-state.md` 是活状态；其他文件是稳定 canon，按需更新。
 
-Pause automatic continuation if any of these appear:
+任何可选的辅助控制视图，都必须在 canon 文件更新后再同步。
 
-- project files contradict dynamic state
-- protagonist acts against core personality with no transition
-- a relationship changes without bridge
-- a main line remains cold too long
-- a recurring character, relationship, or foreshadow passes its return window with no justified dormancy
-- a rule changes without repair
+不要把马拉松速度当成跳过回写的理由。
 
-Repair first, then continue.
+## 3. 漂移警报
 
-## 4. Forgotten Element Watch
+出现以下情况，暂停自动续写：
 
-Track meaningful touch, not raw mention.
+- 项目文件与动态状态互相矛盾
+- 主角无桥梁地违背核心性格
+- 关系变化缺少过渡
+- 主线冷太久
+- 反复出现的人物、关系或伏笔超过返场窗口，却没有合理休眠说明
+- 世界规则变了但没修文档
 
-Default review thresholds:
+先修，再继续。
 
-- core recurring character: review at roughly 3-5 chapters without meaningful pressure
-- major subplot: review at roughly 4-6 chapters with no material advance, echo, or transfer
-- active foreshadow near payoff window: review if two planned opportunities are skipped or the expected window is exceeded
-- volatile relationship: review if a major shift occurs and two appearances pass without a bridge
+## 4. 遗忘元素观察
 
-Use thresholds flexibly by density, pacing mode, and cast size.
+记录有效触碰，不记录单纯点名。
 
-Valid responses:
+默认检查阈值：
 
-- direct advance
-- pressure reminder
-- justified dormancy note
-- closure or archive
+- 核心返场人物：大约 `3-5` 章没有有效压力就检查
+- 主要支线：大约 `4-6` 章没有实质推进、回响或转移就检查
+- 临近回收窗口的活跃伏笔：跳过两次合理机会，或超过预计窗口就检查
+- 不稳定关系：发生重大变化后，两次出场内没有桥梁就检查
 
-Invalid response:
+阈值要按密度、节奏模式和人物数量灵活调整。
 
-- token cameo or cosmetic callback that does not alter pressure
+有效回应包括：
 
-## 5. Character Distortion Check
+- 直接推进
+- 压力提醒
+- 合理休眠说明
+- 收束或归档
 
-Before accepting a chapter in marathon mode, ask:
+无效回应：
 
-- did the protagonist's core personality appear in action or dialogue
-- if behavior changed, was the bridge visible
-- did stress response remain legible
-- did the arc move by increment rather than teleport
+- 不改变压力的点名 cameo 或装饰性回调
 
-## 6. Chapter Loop For Marathon Mode
+## 5. 人物走形检查
 
-Marathon mode means:
+马拉松模式下，接受章节前先问：
 
-- do not ask the user again chapter by chapter
-- do keep every internal control step
+- 主角核心性格是否出现在动作或对白里
+- 行为如果变了，过渡是否可见
+- 受压反应是否仍然清楚
+- 弧线是否是按小步推进，而不是瞬移
 
-Loop:
+## 6. 马拉松章节循环
 
-1. read `08-dynamic-state.md` and `09-style-guide.md`; prepare retrieval slice; pull additional files only when the slice exposes a gap
-2. run forgotten-element and line-heat scan
-3. generate chapter control card (reduced fields in marathon mode)
-4. generate a working title if titled chapters are active
-5. load active style modules
-6. draft chapter
-7. run benchmark and continuity checks
-8. rewrite if needed
-9. run authenticity pass
-10. run a post-authenticity mini recheck
-11. run the final title recheck if titled chapters are active
-12. update dynamic and structural files (tiered writeback)
-13. log the chapter
-14. continue to the next chapter
+马拉松模式意味着：
 
-## 7. Rewrite Escalation Still Applies
+- 不再按章向用户反复确认
+- 但内部控制步骤不能省
 
-In marathon mode:
+循环如下：
 
-- first failure: full rewrite by issue list
-- second failure: targeted rewrite by failed dimension
-- third failure: stop blind looping and switch to cause-directed repair
+1. 读取 `08-dynamic-state.md` 和 `09-style-guide.md`；准备召回切片；只在切片暴露缺口时补读其他文件
+2. 扫描遗忘元素与线热度
+3. 生成章节控制卡（马拉松模式下可用精简字段）
+4. 如果项目使用标题，生成工作标题
+5. 加载活跃风格模块
+6. 起草章节
+7. 跑基准检查和连续性检查
+8. 必要时改稿
+9. 做去 AI 校正
+10. 做去 AI 后小复核
+11. 如果项目使用标题，做最终标题复核
+12. 更新动态和结构文件（分层回写）
+13. 记录日志
+14. 进入下一章
 
-Do not force the next chapter while unresolved failure remains.
+## 7. 改稿升级仍然有效
 
-## 8. Natural Finish Rules
+马拉松模式下：
 
-Marathon mode stops when the approved outline has naturally concluded:
+- 第一次失败：按问题清单整章重写
+- 第二次失败：按失败维度定向重写
+- 第三次失败：停止盲目循环，转为按根因修复
 
-- main lines are resolved
-- support lines are closed or intentionally left with justified residue
-- major debts are paid or deliberately transformed
-- ending direction is fulfilled
+失败项没解决前，不要硬推下一章。
 
-Do not stop because a target chapter count was reached.
+## 8. 自然完结规则
 
-## 9. Near-Finish Questions
+只有当已批准大纲自然完成时，马拉松模式才停：
 
-When the novel approaches conclusion, ask:
+- 主线解决
+- 支线收束，或有明确合理余味
+- 主要债务偿还或转化
+- 结局方向兑现
 
-- what line still lacks closure
-- what emotional debt still needs payment
-- what image, promise, or wound still needs return
-- what must the ending change in the reader's understanding
+不要因为目标章数到了就收尾。
 
-## 10. Common Failures
+## 9. 临近结尾时要问
 
-- marathon mode treated as no-check mode
-- line resolution rushed to hit size targets
-- dynamic state updated late
-- unresolved contradiction carried into the next chapter
-- cold elements brought back with empty cameos
-- optional secondary control notes left newer than the canonical files
-- authenticity cleanup flattening character or genre voice
-- authenticity cleanup changing facts or hook pressure without a final recheck
-- titled chapters generated on autopilot with no fit check against the accepted chapter
+- 哪条线还缺收束
+- 哪笔情感债还需要偿还
+- 哪个意象、承诺或伤口还需要回来
+- 结尾必须改变读者对什么事的理解
+
+## 10. 常见失败
+
+- 把马拉松模式当成免检查模式
+- 为了凑体量强行加速收线
+- 动态状态迟迟不更新
+- 矛盾没修就带进下一章
+- 冷掉的元素只用空 cameo 拉回来
+- 可选辅助笔记比 canon 更新
+- 去 AI 清理把人物或类型声音洗平
+- 去 AI 清理改坏事实或钩子压力，却没有最终复核
+- 标题自动生成后不再检查是否贴合接受稿

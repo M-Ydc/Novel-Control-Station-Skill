@@ -1,108 +1,106 @@
-# Scene Execution Patterns
+# 场景执行模式 (Scene Execution Patterns)
 
-Use this when a chapter needs tighter structural control than a single high-level mission statement can provide.
+当一章不能只靠一句高层任务来控制，需要更细的结构时，读这一份。
 
-Goal: convert chapter intent into a small number of pressure units so the chapter changes something real instead of merely moving pieces around.
+目标是：把章节意图拆成少数几个“压力单元”，让本章真的改变某件事，而不是只把人物和信息挪来挪去。
 
-## 1. Build Pressure Units, Not Empty Scenes
+## 1. 建压力单元，不要堆空场景
 
-Most chapters work best as 2-5 units.
+多数章节最适合拆成 `2-5` 个单元。
 
-A unit may be:
+一个单元可以是：
 
-- a scene: active goal, conflict, turn
-- a sequel or aftermath: reaction, decision, redirected pressure
-- a hybrid: small action followed by emotional or strategic fallout
+- 场景：有当前目标、有阻力、有转向
+- 后果段：反应、决定、压力改道
+- 混合段：一个小动作之后，立刻接情绪或策略上的余波
 
-Do not create units just to hit a quota.
+不要为了凑数量而硬拆单元。
 
-## 2. Minimum Unit Shape
+## 2. 最小单元必须有形状
 
-For each unit, know:
+每个单元都要知道：
 
-- what the point-of-view character wants right now
-- what blocks or complicates that want
-- what changes by the end of the unit
-- what pressure carries into the next unit
+- 当前视角人物现在想要什么
+- 什么挡住或扭曲了这个想要
+- 到单元结束时，发生了什么变化
+- 哪股压力会被带进下一个单元
 
-If none of these change, the unit is probably inert.
+如果这些都没变，这个单元大概率是 inert 的，应该删、并或重做。
 
-## 3. Scene And Sequel Balance
+## 3. 动作场景与后果段要平衡
 
-Use more direct scene pressure when the chapter is:
+以下章节更适合直接加大场景压力：
 
-- heat-forward
-- high danger
-- driven by investigation, pursuit, confrontation, or revelation
+- 偏热度推进
+- 危险度高
+- 由调查、追赶、对峙或揭示驱动
 
-Use more sequel or aftermath weight when the chapter is:
+以下章节更适合增加后果段或余震重量：
 
-- reputation-forward
-- relationship-heavy
-- fallout-based
-- slow-burn or literary in movement
+- 偏口碑推进
+- 关系压力重
+- 以事后反应为主
+- 慢热或文学向移动
 
-Even a quiet chapter should still shift pressure, meaning, or relation.
+即使是安静章节，也必须让压力、意义或关系发生变化。
 
-## 4. Chapter-Level Patterns
+## 4. 常用章节形状
 
-Useful chapter patterns:
+可用的章节形状包括：
 
-- entry pressure -> turn -> local closure -> residue
-- clash -> fallout -> new commitment
-- discovery -> misread -> correction cost
-- preparation -> interruption -> redirected objective
-- intimacy -> exposure -> debt
+- 入场压力 -> 转向 -> 局部收束 -> 余波
+- 冲突 -> 后果 -> 新承诺
+- 发现 -> 误判 -> 纠正代价
+- 准备 -> 打断 -> 目标改道
+- 亲近 -> 暴露 -> 债务增加
 
-Rotate pressure shapes across chapters. Repetition deadens long fiction.
+长篇里要轮换压力形状。重复会让章节死掉。
 
-## 5. Mode Adjustments
+## 5. 根据模式调整
 
-Heat-forward mode:
+偏热度模式：
 
-- enter late
-- shorten setup
-- sharpen turns
-- end with stronger pull
+- 更晚入场
+- 缩短铺垫
+- 加锋利转向
+- 章尾拉力更强
 
-Reputation-forward mode:
+偏口碑模式：
 
-- allow slower surface movement
-- deepen aftermath
-- make value pressure and residue visible
+- 允许表层移动慢一点
+- 加重后果和余波
+- 让价值压力和关系后效可见
 
-Dual-high balance:
+双高平衡：
 
-- keep readability and propulsion
-- still leave thematic aftereffect and changed relation
+- 保住可读性和推进力
+- 同时留下主题后效和关系变化
 
-## 6. Loosening Rule
+## 6. 放松规则
 
-Literary, restrained, or anti-formula chapters do not need visible action beats every few paragraphs.
+文学向、克制向、反公式章节，不需要每隔几段就出现显眼动作点。
 
-They still need at least one of these:
+但它至少要做到下面一项：
 
-- changed relation
-- clarified value conflict
-- exposed wound or debt
-- new pressure on a line already in play
+- 关系改变
+- 价值冲突变清楚
+- 伤口或债务暴露
+- 已经在运行的某条线承受了新压力
 
-Loose form is acceptable. Empty drift is not.
+形式可以松，空转不行。
 
-## 7. Revision Questions
+## 7. 章节发平时这样问
 
-When a chapter feels flat, ask:
+- 第一个单元是不是开始得太早
+- 到底是哪一个单元让本章转了方向
+- 最重要压力的后果段在哪里
+- 一段对白是不是静止太久，只是在交换说明
+- 哪个单元只是负责搬运信息或人物身体
 
-- did the first unit begin too early
-- which unit actually turns the chapter
-- where is the aftermath of the most important pressure
-- did a dialogue sequence stay static too long
-- which unit exists only to transport information or bodies
+## 8. 失败信号
 
-## 8. Failure Signals
-
-- every unit has the same temperature
-- a high-pressure event gets no aftermath
-- characters only explain rather than pursue
-- the chapter ends abruptly but nothing has changed
-- the structure looks busy on paper and dead on the page
+- 每个单元温度都一样
+- 高压事件之后没有余波
+- 人物只在解释，没有在追求、抵抗或选择
+- 结尾突然，但没有任何东西真正改变
+- 纸面结构很忙，读起来却死

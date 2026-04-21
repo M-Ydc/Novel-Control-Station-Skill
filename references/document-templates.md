@@ -1,273 +1,288 @@
-# Standard Document Templates
+# 标准文档模板 (Standard Document Templates)
 
-Use these templates when setting up or restoring a novel project.
+新建或恢复小说项目时使用这些模板。
 
-If graph-style control is needed, derive it from these files instead of creating a rival canon. The standard files stay primary.
+如果项目需要图谱式控制，也必须从这些标准文件派生，不要另建一套 canon。标准文件始终是主事实源。
 
-## Standard Directories
+## 标准目录 (Standard Directories)
 
 - `chapters/`
-  - store accepted chapter manuscripts here
-  - default naming: `NN-<chapter-title>.md`
+  - 存放已接受的章节正文
+  - 默认命名：`NN-<chapter-title>.md`
+- `drafts/`
+  - 存放去 AI 校正前的结构草稿
+  - 默认命名：`NN-<chapter-title>-draft.md`
 - `control-cards/`
-  - store the persisted control card for each accepted chapter here
-  - default naming: `NN-<chapter-title>-control-card.md`
+  - 存放每章已接受的控制卡
+  - 默认命名：`NN-<chapter-title>-control-card.md`
+- `logs/`
+  - 存放写作日志和运行记录
 
-Use stable slugs when the project uses numbered-only chapters or when a working title may still change before final acceptance.
+如果项目只用编号章节，或章节标题在接受前仍可能变化，就用稳定 slug，不要留空文件名。
 
 ## `00-project-overview.md`
 
-- project title
-- project language: Chinese by default
-- script preference: simplified Chinese by default
-- genre
-- target audience
-- scale
-- operating mode
-- project mode: normal, marathon
-- release mode
-- target length
-- user approval state
-- target mode: heat, reputation, dual-high balance
-- chapter title mode: numbered, titled, hybrid
-- chapter title system
-- chapter title primary purpose
-- core promise
-- primary hooks
-- historical or social pressure
-- ending residue
-- primary style
-- support style
-- forbidden style
+记录项目总口径：
+
+- 项目标题
+- 项目语言：默认中文
+- 字体/文字偏好：默认简体中文
+- 类型
+- 目标读者
+- 体量
+- 运行模式：普通 / 马拉松
+- 发布模式
+- 目标长度
+- 用户确认状态
+- 目标取向：热度、口碑、双高平衡
+- 章节标题模式：纯编号、有标题、混合
+- 章节标题系统
+- 章节标题主要作用
+- 核心承诺
+- 主要钩子
+- 历史压力或社会压力
+- 结局余味
+- 主风格
+- 副风格
+- 禁用风格
 
 ## `01-theme-and-proposition.md`
 
-- central question
-- theme statement under pressure
-- opposing values
-- human cost
-- value conflicts
-- recurring motifs
-- what the novel is testing
+记录主题压力：
+
+- 中心问题
+- 被压力检验的主题表述
+- 对立价值
+- 人的代价
+- 价值冲突
+- 反复出现的母题
+- 这本书到底在检验什么
 
 ## `02-worldbuilding.md`
 
-- era and location frame
-- social structure
-- institutions
-- power distribution
-- material life details
-- rules and limits
-- cost structure
-- what cannot happen
-- what characters commonly know
+记录世界规则：
 
-Power system (fill when the project uses a power framework):
+- 时代与地点框架
+- 社会结构
+- 机构与制度
+- 权力分布
+- 物质生活细节
+- 规则与限制
+- 代价结构
+- 什么事不能发生
+- 角色普遍知道什么
 
-- power source: where does power come from
-- tier structure: stages or levels, with names and meaningful distinctions
-- advancement cost: what does moving up require
-- hard ceiling: what power cannot solve at any tier
-- social relation: does power equal status, or is there tension between them
-- world rules that constrain the protagonist as well as enable them
+如果项目有力量体系，补充：
 
-Historical pressure layer:
+- 力量来源：力量从哪里来
+- 层级结构：阶段/等级名称，以及有意义的差异
+- 晋升代价：向上走需要什么
+- 硬上限：力量在任何层级都解决不了什么
+- 社会关系：力量是否等于地位，还是两者有张力
+- 约束主角的规则：规则不能只给主角开路，也要限制主角
 
-- pre-story debts or wounds that still exert force on the present
-- buried truths that would change the power structure if revealed
-- old conflicts whose unresolved residue shapes current faction behavior
+历史压力层：
+
+- 正文开始前已经存在、但仍在影响现在的债或伤口
+- 一旦公开就会改变权力结构的埋藏真相
+- 未被解决的旧冲突如何影响当前派系行为
 
 ## `03-cast-bible.md`
 
-For each major character:
+每个主要人物至少记录：
 
-- role in story
-- core personality
-- visible goal
-- hidden need
-- fear
-- shame point
-- debt
-- blind spot
-- stress response mode
-- speech signature
-- social position
-- relationship pressure
-- last meaningful presence
-- return pressure
-- contradiction
-- likely arc direction
+- 故事功能
+- 核心性格
+- 看得见的目标
+- 藏起来的需要
+- 恐惧
+- 羞耻点
+- 债务
+- 盲点
+- 受压反应
+- 说话特征
+- 社会位置
+- 关系压力
+- 上一次有效出场
+- 返场压力
+- 内在矛盾
+- 可能的弧线方向
 
-For the protagonist, also fill when a golden finger is present:
+如果主角有金手指，还要记录：
 
-- golden finger type: 系统型 / 能力型 / 知识型 / 资源型 / 身份型
-- core advantage: one sentence
-- growth curve: stage count, current stage, next breakthrough condition
-- cost and limits: what each use costs; what it cannot do; story-wide hard ceiling
-- active pressure layer: which of cost / rules / competition / desire / identity is currently generating pressure
-- binding to core personality: how the golden finger reflects or challenges who the protagonist is
+- 金手指类型：系统型 / 能力型 / 知识型 / 资源型 / 身份型
+- 核心优势：一句话说明它给主角什么独有能力
+- 成长曲线：阶段数、当前阶段、下一次突破条件
+- 代价与限制：每次使用要付什么；它不能做什么；全书硬上限是什么
+- 当前压力层：代价、规则、竞争、欲望、身份，哪一层正在制造压力
+- 与核心性格的绑定：它如何反映或挑战主角是谁
 
 ## `04-relationship-map.md`
 
-Track:
+记录关系网：
 
-- pair or group
-- current state
-- hidden tension
-- recent shift
-- last material shift
-- next pressure due
-- unresolved debt
+- 人物对或群体
+- 当前状态
+- 隐藏张力
+- 最近变化
+- 上一次实质变化
+- 下一次应有压力
+- 未解决债务
 
 ## `05-main-plotlines.md`
 
-For each line:
+每条线记录：
 
-- line type: main, side, hidden
-- core conflict
-- current objective
-- current obstacle
-- active characters
-- causal chain
-- social or era pressure
-- last meaningful advance
-- heat status
-- return pressure
-- next likely turn
-- closure condition
-- relation to other lines
+- 线类型：主线、支线、暗线
+- 核心冲突
+- 当前目标
+- 当前阻碍
+- 活跃人物
+- 因果链
+- 社会或时代压力
+- 上一次有效推进
+- 热度状态
+- 返场压力
+- 下一次可能转向
+- 收束条件
+- 与其他线的关系
 
 ## `06-foreshadow-ledger.md`
 
-For each item:
+每个伏笔记录：
 
-- label
-- type: 因果伏笔 / 性格伏笔 / 规则伏笔 / 关系伏笔 / 反转伏笔
-- planted in chapter
-- surface form: what the reader sees and understands at the time of planting
-- hidden meaning: what the surface form actually means, decided at design time not at payoff time
-- surface validity: confirm the surface form is independently interesting without the hidden meaning
-- linked line or character
-- expected payoff window
-- last touched
-- current status
+- 标签
+- 类型：因果伏笔 / 性格伏笔 / 规则伏笔 / 关系伏笔 / 反转伏笔
+- 埋设章节
+- 表层形态：读者当时看见并理解的是什么
+- 隐藏含义：设计时就决定好的真实含义，不能等回收时才硬补
+- 表层有效性：即使没有隐藏含义，这个表层也要独立有趣
+- 关联线或人物
+- 预计回收窗口
+- 上一次触碰
+- 当前状态
 
 ## `07-chapter-roadmap.md`
 
-For each planned chapter:
+每个章节位记录：
 
-- chapter number or slot
-- working title
-- locked title
-- title primary job
-- title system slot
-- stage target
-- main objective
-- main-line push
-- side-line push
-- lines advanced
-- key conflict
-- required prior debt
-- return obligations
-- scene pressure shape
-- required callback or payoff
-- ending hook
+- 章节编号或槽位
+- 工作标题
+- 锁定标题
+- 标题主要作用
+- 标题系统位置
+- 阶段目标
+- 本章主要目标
+- 主线推进
+- 支线推进
+- 被推进的线
+- 核心冲突
+- 必须回来的旧债
+- 返场义务
+- 场景压力形状
+- 必须回调或回收的内容
+- 章尾钩子
 
 ## `chapters/`
 
-For each accepted chapter manuscript:
+每章接受稿应包含：
 
-- chapter number
-- locked title
-- chapter body
+- 章节编号
+- 锁定标题
+- 正文章节
 
 ## `control-cards/`
 
-For each accepted chapter control card:
+每章接受稿对应一份控制卡：
 
-- save one persisted control card per chapter
-- use the template in [chapter-control-card.md](chapter-control-card.md)
-- if the accepted chapter title changes during drafting, rename the control card file in the same writeback pass
+- 使用 [chapter-control-card.md](chapter-control-card.md) 模板
+- 如果成稿标题在写作中变化，要在同一次回写里重命名控制卡文件
 
 ## `08-dynamic-state.md`
 
-Use the dedicated template in [dynamic-state-template.md](dynamic-state-template.md).
+使用 [dynamic-state-template.md](dynamic-state-template.md) 的专用模板。
 
 ## `09-style-guide.md`
 
-- selected primary styles
-- support style
-- style balance target: reader pull, type payoff, texture balance
-- internalized strengths to absorb from mature works for each active style
-- forbidden styles
-- chapter title register
-- Chinese register mode
-- paragraph mode: `web-serial-natural` by default, `long-paragraph` when explicitly chosen
-- paragraph override policy
-- prose density
-- paragraph rhythm notes, including narrative paragraph target and allowed short-paragraph triggers
-- blank-line discipline
-- dialogue ratio
-- narrative distance
-- pacing preference
-- benchmark group
-- dynamic down-weighted checks
-- payoff expectations for active primary styles
-- support style contribution boundary
-- chapter-level style intensity range
-- pseudo-style drift to avoid for each active style
-- forbidden trope or market habits
-- image system
-- language taboos, including banned AI shell phrases, analysis-tone filler, and unexplained specialist jargon
-- comparison and personification admission rule: a comparison or personification is permitted only when it is specific to this scene's pressure, this character's way of seeing, or this moment's cost — not because the setting is dark, tense, or significant; if the same image could appear unchanged in a different scene of this novel, it is modular and must be cut or rebuilt
-- emotional color carrier rule: emotional color must be carried through action, choice, physical detail, dialogue rhythm, or silence — not through a comparison or interior summary that names the emotion directly
-- authenticity guardrails, including jargon ceiling and any required terms that must survive cleanup
-- voice preservation notes, including profession-, era-, or character-specific diction that should survive cleanup
-- revision standards
+记录风格规则：
 
-### Starter Example: Web-Serial-Natural Paragraph Control
+- 已选主风格
+- 副风格
+- 风格平衡目标：读者拉力、类型兑现、质感平衡
+- 每个活跃风格需要吸收的成熟作品优点
+- 禁用风格
+- 章节标题语域
+- 中文语域模式
+- 段落模式：默认 `web-serial-natural`，明确选择时可用 `long-paragraph`
+- 段落覆盖规则
+- 文体密度
+- 段落节奏说明，包括叙述段目标句数和允许单句段的位置
+- 空行纪律
+- 对话比例
+- 叙述距离
+- 节奏偏好
+- 基准组
+- 动态降权检查项
+- 活跃主风格的兑现期待
+- 副风格贡献边界
+- 章节级风格强度范围
+- 每个活跃风格要避免的伪风格漂移
+- 禁用套路或市场习惯
+- 意象系统
+- 语言禁忌，包括 AI 句壳、分析腔填充和无解释专业术语
+- 比喻/拟人准入规则：只有当它来自本场景压力、本人物看法或本时刻代价时才保留；如果原封不动换个场景也能用，就删或重写
+- 情绪承载规则：情绪必须由动作、选择、物理细节、对白节奏或沉默承担，不靠直接命名情绪的比喻或内心总结
+- 真实感护栏，包括术语上限和必须保留的设定词
+- 声音保留说明，包括职业、时代或人物专属措辞
+- 修订标准
 
-Use this when the project targets mainstream Chinese web-serial readability.
+### 起步示例：`web-serial-natural` 段落控制
 
-The example below is an original demonstration distilled from the shared paragraph habits of recent high-heat serial fiction. It is not quoted from any novel.
+当项目追求中文主流网文的可读性时，可使用下面这组基础规则。
+
+这是原创示例，用来概括近期高热连载常见的段落习惯，不引用任何具体作品。
 
 ```markdown
-## Paragraph Control
-- paragraph mode: web-serial-natural
-- paragraph override policy: inherit project default; only switch to `long-paragraph` for letters, dream flow, sustained interior monologue, or deliberately slowed literary movement
-- prose density: medium
-- paragraph rhythm notes:
-  - most narrative paragraphs stay at `2-4` sentences
-  - one-sentence narrative paragraphs are allowed for reveal, shock, emotional stall, hard cut, or chapter-end hook
-  - if three short narrative paragraphs in a row can be merged without losing force, merge them
-  - keep one speaker's continuous beat, attached action, and short follow-up in the same paragraph unless interruption or movement changes the beat
-- blank-line discipline:
-  - only open a new paragraph for speaker change, scene/time shift, point-of-view shift, or real pressure turn
-  - do not use blank space to fake pace
-- revision standards:
-  - reject decorative blank gaps
-  - reject habitual one-sentence paragraph chains
-  - reject same-speaker beat-splitting with no pressure reason
+## 段落控制
+- paragraph_mode: web-serial-natural
+- paragraph_override_policy: 继承项目默认；只有书信、梦境流、持续内心独白或刻意放慢的文学段落，才切到 `long-paragraph`
+- prose_density: medium
+- paragraph_rhythm_notes:
+  - 大多数叙述段保持 `2-4` 句
+  - 单句叙述段只给揭示、惊吓、情绪卡住、硬切或章尾钩子使用
+  - 连续三个短叙述段如果合并后不掉力量，就合并
+  - 同一说话人的连续语气、附带动作和短跟句，除非被打断或调度变化，否则放在同段
+- blank_line_discipline:
+  - 只有说话人变化、场景/时间变化、视角变化或真实压力拐点才开新段
+  - 不用空白假装节奏
+- revision_standards:
+  - 拒绝装饰性空行
+  - 拒绝习惯性单句段链
+  - 拒绝同一说话人无压力理由的拆段
 ```
 
-Original demonstration:
+原始示范：
 
-Too chopped:
+太碎：
 
 ```text
 她看见门开着。
 [空行]
 却没进去。
 [空行]
-鞋尖停在门槛外。
+手机在桌上亮。
 [空行]
-像是再往前一步，屋里那口气就会压到她脸上。
+一闪。
+[空行]
+又一闪。
 ```
 
-Revised for `web-serial-natural`:
+更自然：
 
-> 她看见门开着，却没进去，鞋尖只停在门槛外。像是再往前一步，屋里那口气就会压到她脸上。她站了两秒，才抬手去推门。
+> 她看见门开着，却没立刻进去。手机在桌上亮了一下，又亮一下，她站在门口，先把钥匙重新攥回掌心。
+
+如果项目没有特殊说明，优先使用 `web-serial-natural`。当用户明确要求出版向、文学向、长段内心流或慢节奏沉浸时，再考虑 `long-paragraph`。
 
 ## `logs/writing-log.md`
 
-Use only the audit fields in [logging-rules.md](logging-rules.md).
+日志只记录执行过程，不记录故事真相。故事事实必须进入对应 canon 文件。

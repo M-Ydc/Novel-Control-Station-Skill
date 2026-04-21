@@ -1,138 +1,142 @@
-# Authenticity And De-AI Pass
+# 真实感与去 AI 校正 (Authenticity And De-AI Pass)
 
-Use this after a chapter is structurally acceptable and benchmark-clean enough to preserve.
+在章节结构已经基本成立、也通过了基准检查之后，再做这一轮处理。
 
-Goal: remove generic AI habits and over-professionalized diction without flattening voice, genre texture, or narrative personality.
+目标不是把文字洗白、洗平，而是去掉通用 AI 痕迹和过度专业化的说法，同时保住作品自己的声音、类型质感和叙述个性。
 
-## 1. Core Principle
+## 1. 核心目标
 
-The target is not "plain at all costs."
-The target is prose a reader can feel immediately, not commentary about experience.
+这一轮不是追求“越朴越好”，也不是把所有棱角都抹掉。
+真正要追的是：读者能立刻感觉到人、事、场景和压力，而不是看到作者在解释体验。
 
-The target is:
+目标包括：
 
-- specific instead of generic
-- pressured instead of explanatory
-- legible instead of jargon-blocked
-- voiced instead of neutralized
-- vivid instead of inflated
-- emotionally charged instead of affectively neutral: Emotional color does not mean melodrama; it means felt pressure, want, wound, or temperature that the reader can catch without being told.
-## 2. Pass One: Strip Generic AI Habits
+- 更具体，而不是泛泛而谈
+- 更有现场压力，而不是一味解释
+- 更好读，而不是被术语挡住
+- 更有声音，而不是全都磨成中性句
+- 更鲜活，而不是徒有气势
+- 更有情绪温度，而不是情感上全都一层雾
 
-Look for:
+这里说的“情绪温度”，不是滥情，而是让读者不用被告知，也能感到人物此刻的欲望、伤口、窒闷、期待或寒意。
 
-- abstract emotion summaries that could become action, sensation, or dialogue
-- fake depth, slogan lines, or broad commentary that the scene did not earn
-- significance inflation or "this moment changed everything" lines that outrun the actual scene
-- empty conclusions that summarize moral weight the chapter did not dramatize
-- formulaic contrast patterns, neat triplets, or balanced sentences that sound assembled,this includes avoiding language modularity (interchangeable generic phrases) and overly regular paragraph/beat structure.
-- decorative adjective piles
-- language modularity: sentence shells or phrase patterns that could be moved between characters or scenes without leaving a mark
-- overly regular structure: paragraph lengths and sentence rhythms that feel mechanically balanced (e.g., every paragraph 2–3 sentences, every beat symmetrical)
-- repetitive transition words and tidy paragraph openers
-- dialogue tags or gestures that feel mass-produced
-- all speakers sounding equally polished
+## 2. 第一轮：清掉通用 AI 痕迹
 
-At this stage, reduce genericity, but do not erase intentional register.
+优先找这些问题：
 
-## 3. Pass Two: Cut Over-Professionalized Diction
+- 抽象的情绪总结，本来可以改成动作、感官或对白
+- 假深刻、口号句、大而空的议论，而场景根本没把它撑起来
+- “这一刻改变了一切”之类的意义膨胀，话比场景更大
+- 结尾空泛拔高，把这一章并没有真正演出来的重量提前总结了
+- 过于工整的对比句、三联句、成套句壳，读起来像拼出来的
+- 形容词堆得很满，但没有真正起作用
+- 一种句壳可以换场景、换人物继续用，说明语言太模块化
+- 段落长度和句子节奏太平均，像机械排版出来的
+- 过于常见的过渡词和整齐划一的起段方式
+- 像批量生产出来的对白标签和手势动作
+- 所有人说话都像被同一层修辞打磨过
 
-Treat these as risk signals unless the project truly needs them:
+这一轮先去掉泛化感，但不要顺手把本来有意保留的文体和语气一起抹掉。
 
-- analysis words that sound like criticism, strategy copy, or theory talk rather than fiction
-- abstract nouns such as "mechanism", "structure", "logic", "order", or "calibration" doing work that action or consequence should do
-- institutional or industry jargon dropped into narration without scene support
-- professional terms piled together when one concrete term plus context would do the job
-- imported concept language that makes a scene harder to feel and easier to summarize
+## 3. 第二轮：削掉过度专业化的措辞
 
-Default action:
+除非故事真的需要，否则把下面这些都视为风险信号：
 
-- translate the term into action, consequence, social position, or material detail
-- let behavior, misunderstanding, or pressure carry the meaning
-- keep only the minimum technical wording the scene actually needs
+- 听起来像评论、策划案、理论文章的分析词
+- 用“机制、结构、逻辑、秩序、校准”这类抽象名词替代动作和后果
+- 没有场景支撑就丢进叙述里的机构话术、行业话术
+- 一句话里堆太多专业词，明明一个具体词加上下文就够
+- 借来的概念语言，让场景越来越好总结、越来越难感受
 
-Do not confuse unfamiliar words with depth.
+默认处理方式：
 
-## 4. When To Keep Specialized Terms
+- 先把词翻回动作、后果、社会位置或物质细节
+- 让行为、误会、代价和压力去承担意义
+- 只保留故事这一刻真正离不开的最低限度专业词
 
-Keep a medical, legal, military, technical, historical, institutional, or setting term only if at least one is true:
+不要把“生僻”误认成“深”。
 
-- the plot information breaks without it
-- the point-of-view character, narrator, or speaker would naturally use it
-- the era, institution, or fantasy/science-fiction system loses credibility without it
+## 4. 哪些专业词应该保留
 
-If a required term stays:
+一个医学、法律、军事、技术、历史、制度或世界观专用词，只要满足下面任一条件，就可以保留：
 
-- surrounding context should let an ordinary reader infer enough to follow the scene
-- do not stack several opaque terms in one sentence when one will carry the load
-- keep the emotional or causal result legible even if the reader does not know the exact definition
+- 不写这个词，情节信息会断
+- 视角人物、叙述者或说话人本来就会这么说
+- 不保留它，时代、机构或幻想设定的可信度会掉下来
 
-## 5. Pass Three: Restore Human Presence
+如果确实需要保留：
 
-Do not add details by asking "what literary element is missing here." Ask instead:
+- 周围语境要足够让普通读者猜到大概意思
+- 一句话里不要连堆好几个难词，一个能顶住就够
+- 即使读者不知道它的严格定义，也要能读懂这件事带来的情绪和后果
 
-- what is the point-of-view character perceiving right now, given their state and position in this scene
-- what material object, action, or physical fact is already carrying the scene's pressure — and is it visible enough
-- if every newly added or restored detail were removed, would the scene's pressure still hold
+## 5. 第三轮：把人味和现场感补回来
 
-If the pressure holds without the detail, the detail is decoration. If the pressure drops, the detail is load-bearing.
+不要问“这里还缺什么文学元素”。
+要问的是：
 
-After that test, strengthen only what the scene's own pressure requires:
+- 这个视角人物，在此时此地、以他现在的状态，会先看到什么、听到什么、感觉到什么
+- 场景里到底是哪个动作、哪个物件、哪个物理事实在承担压力，它够不够清楚
+- 如果把新加回来的细节删掉，场景压力还立得住吗
 
-- concrete sensory or material detail that belongs to this scene's specific situation, not to the genre in general
-- speaker distinction
-- rhythm variation
-- social position in speech
-- scene-specific memory points
-- project-specific language habits
-- one or two living details after heavy cleanup so the prose does not go flat
-- emotional specificity and affective weight: felt pressure, want, wound, or temperature the reader can catch without being told — carried through action, choice, physical detail, or dialogue rhythm, not through a comparison or interior summary that names the emotion directly
+如果删掉也不影响压力，那这个细节多半只是装饰；如果一删就塌，它才是承重件。
 
-If a line becomes technically cleaner but less alive, it is not improved yet.
+因此，补写时只补场景真的需要的东西：
 
-After Pass Three, run a comparison and personification check:
+- 只属于这个场景的具体感官或物质细节，而不是类型通用件
+- 说话人的差异
+- 节奏变化
+- 语言里的社会位置
+- 这个作品自己的记忆点
+- 这个项目已经长出来的语言习惯
+- 清理过猛之后，补回一两处真正活的细节，防止文字发平
+- 情绪上的具体温度：让人物的欲望、伤口、压迫感或期待，通过动作、选择、身体反应和对白节奏自己露出来，而不是由作者出面概括
 
-- for every comparison or personification added or retained, ask: can this exact image appear in a different scene of this novel without modification
-- if yes, it is modular — cut it or rebuild it from this scene's specific pressure, character perception, or moment cost
-- a comparison earns its place only when it is specific to this scene's situation, this character's way of seeing, or this moment's cost — not because the setting is dark, tense, or significant
+如果一句话技术上更干净了，却明显更死了，那就不算改好。
 
-## 6. Protect Intended Register
+这一轮结束后，还要专门检查比喻和拟人：
 
-Do not flatten on sight when the project intentionally uses:
+- 每个保留或新增的比喻、拟人，都问自己：原封不动挪到本书另一个场景里，还能成立吗
+- 如果能，就说明它太通用，应该删掉或重写
+- 只有当它确实来自这个场景的压力、这个人物的观察方式、这个时刻的代价时，它才算有资格留下来
 
-- historical formality
-- literary density
-- elevated narration
-- comic exaggeration
-- character-specific verbal habits
-- profession-shaped diction that belongs to the speaker
+## 6. 保护原本该有的文体
 
-Clean generic phrasing, not chosen texture.
+如果项目本来就有以下特征，不要一见就洗平：
 
-## 7. Paragraph And Blank-Line Discipline
+- 历史叙事里的庄重感
+- 文学向文本的密度
+- 有意保留的高位叙述
+- 喜剧里带夸张的声音
+- 角色自己的口头禅和说话习惯
+- 某种职业、阶层或时代确实会使用的措辞
 
-Respect the active paragraph mode from `09-style-guide.md` or the chapter control card.
+要清理的是“通用废话”，不是作品自己选定的纹理。
 
-`web-serial-natural`:
+## 7. 段落与空行纪律
 
-- narrative paragraphs usually hold `2-4` sentences
-- single-sentence narrative paragraphs are for reveal, impact, pause, cut, or hook, not default breathing
-- keep one speaker's continuous beat, attached action, and short follow-up in the same paragraph unless interruption or movement changes the beat
+段落模式要服从 `09-style-guide.md` 或当前章节控制卡。
 
-`long-paragraph`:
+`web-serial-natural`：
 
-- allow longer narrative flow when interiority, literary continuity, or publication-oriented movement needs it
-- still break on speaker change, scene/time shift, point-of-view shift, or major pressure turn
+- 叙述段一般保持 `2-4` 句
+- 单句叙述段只给揭示、重击、停顿、转切或钩子用，不是默认呼吸法
+- 同一个说话人的连续语气、附带动作和短跟句，如果没有调度变化或压力拐点，就放在同一段里
 
-For both modes:
+`long-paragraph`：
 
-- remove decorative blank lines that do not mark a real boundary
-- if three or more consecutive single-sentence narrative paragraphs can be merged without losing force, merge them
-- if a merged paragraph becomes inert or airless, reopen only the pressure-bearing break
+- 当内心流、文学密度或出版向行文确实需要时，可以允许更长的叙述段
+- 但说话人变化、时空切换、视角切换和重大压力转折仍然要断段
 
-## 8. Chinese Before/After Examples
+无论哪种模式：
 
-### Example A: false depth and abstract summary
+- 删掉没有真实边界意义的装饰性空行
+- 如果三段以上连续单句叙述其实能合并，而且合并后压力不减，就合并
+- 如果合并后变闷、变死，再只把真正承担压力的断口打开
+
+## 8. 中文前后对照示例
+
+### 示例 A：假深刻与抽象总结
 
 Before:
 
@@ -142,7 +146,7 @@ After:
 
 > 她把钥匙插了三次才插进锁眼。屋里没开灯，孩子的作业本摊在餐桌上。她站在门口，忽然不敢再往里走。
 
-### Example B: analysis-tone relationship prose
+### 示例 B：关系描写里的分析腔
 
 Before:
 
@@ -152,7 +156,7 @@ After:
 
 > 谁都没提昨晚那通电话。她把外卖放到桌上，只说了一句趁热吃；他嗯了一声，没抬头。
 
-### Example C: necessary jargon kept, but supported by context
+### 示例 C：该留的专业词可以留，但要有场景托底
 
 Before:
 
@@ -160,11 +164,11 @@ Before:
 
 After:
 
-> 医生看了一眼 CT，又去按她父亲发凉的手背。"大概率是主动脉夹层。" 他说完就让护士准备转手术室。她听不懂那个词，只听懂了周围人一下子快起来的脚步声。
+> 医生看了一眼 CT，又去按她父亲发凉的手背。“大概率是主动脉夹层。”他说完就让护士准备转手术室。她听不懂那个词，只听懂了周围人一下子快起来的脚步声。
 
-### Example D: chopped web-serial spacing tightened into natural paragraphs
+### 示例 D：网文段落别切得像碎片清单
 
-This is an original demonstration based on recent hot-serial paragraph habits, not a quoted novel excerpt.
+这是一个原创示例，用来说明近年热门连载里常见的碎段问题，不引用任何具体作品。
 
 Before:
 
@@ -184,70 +188,68 @@ After:
 
 > 他把门推开，屋里却没人说话，只有桌上的手机在亮，一闪一闪地催着命。他没急着过去，先看了一眼厨房，又看了一眼阳台，喉结这才慢慢滚了一下。
 
-## 9. Revision Lenses
+## 9. 常见问题 -> 处理动作
 
-Problem -> action:
+- 情绪说得太大 -> 改成动作、感知或直接后果
+- 假深刻句 -> 砍掉，或把它钉回一个具体伤口、选择或代价上
+- 分析腔句子 -> 把“机制、结构、逻辑”翻回活场景、压力点或结果
+- 专业词来得太猛 -> 保留真正必需的一个，其他的交给上下文承担
+- 单句段连发 -> 合并相连动作，只留下真正承压的短段
+- 空行只是装饰 -> 删掉；只有说话人、时空、视角或压力边界真的变了才断
+- 对话都像一个人说 -> 把直率程度、节奏、遮掩方式重新拉开
+- 叙述太安全、太平 -> 补一点偏向、歪斜、摩擦或代价
+- 清理过头 -> 补回一两处活细节，而不是整段重新涂脂抹粉
 
-- broad emotional statement -> replace with behavior, perception, or consequence
-- pseudo-profound line -> cut or anchor it to a concrete wound, choice, or cost
-- analysis-language sentence -> turn "mechanism/structure/logic" into a live situation, pressure point, or consequence
-- unexplained professional term -> keep one needed term, cut the rest, and make context carry the meaning
-- one-sentence paragraph chain -> merge connected beats until only the pressure-bearing short paragraphs remain
-- decorative blank line -> remove unless scene, speaker, time, or pressure boundary actually changed
-- samey dialogue -> restore difference in directness, rhythm, and concealment
-- safe narration -> add pressure, asymmetry, or point-of-view bias
-- overtrimmed prose -> reintroduce one or two living details instead of bulk ornament
+## 10. 改稿强度分级
 
-## 10. Escalation Levels
+轻度处理：
 
-Light pass:
+- 只有零星几句通用套话
+- 节奏只需要小修
+- 对话稍微发腻，需要顺手理一理
 
-- isolated generic phrases
-- small rhythm cleanup
-- mild dialogue smoothing
+中度处理：
 
-Medium pass:
+- 抽象总结反复出现
+- 整场戏声音发糊
+- 情绪总在被作者代说
+- 分析腔和概念腔反复冒头
 
-- repeated abstraction
-- scene-wide voice blur
-- generic emotional summary
-- repeated analysis-tone wording or concept language
+重度处理：
 
-Aggressive pass:
+- 整章读起来像模板稿
+- 所有人说话都差不多
+- 段落节奏过于平均、过于安全
+- 语言明显是一套可替换句壳，结构也太规整
+- 术语墙、理论腔让读者很难直接进入现场
 
-- the chapter reads like template prose
-- every speaker sounds similar
-- paragraph rhythm is uniformly safe
-- language feels modular (generic shells) or structurally too regular
-- jargon walls or theory-heavy narration block immediate readability
+即使是重度处理，也不能把故事意思和原有风格一起洗掉。
 
-Aggressive pass still must preserve story meaning and style intent.
+## 11. 去 AI 后的小复核
 
-## 11. Post-Pass Mini Recheck
+做完中度或重度处理后，再快速核一遍：
 
-After medium or aggressive edits, run a quick recheck for:
+- 连续性事实有没有被改坏
+- 主角和关键人物的声音还对不对
+- 关系压力还在不在原本的强度上
+- 段落模式有没有跑偏
+- 钩子、收束和余味是否还成立
+- 普通读者能不能顺畅读下去
+- 真正需要保留的专业词是不是还在该在的位置
 
-- continuity facts still holding
-- protagonist and key speaker voice still sounding correct
-- relationship pressure still reading at the intended level
-- paragraphing still matching the selected paragraph mode
-- hook, closure, and residue still functioning
-- ordinary-reader legibility still holding
-- required specialized terms still present where the story actually needs them
+如果这一轮把故事控制打坏了，就先修控制，再谈文字细化。
 
-If this pass breaks story control, repair the damaged dimension before accepting the chapter.
+## 12. 最后问自己
 
-## 12. Final Questions
+- 现在的文字还像不像这本书
+- 主要人物说话还像不像他们自己
+- 有没有把本来该留的纹理也顺手洗掉了
+- 段落是太碎了，还是太闷了
+- 这次清理掉的是通用废话，还是连力量也一起清掉了
+- 还有没有术语墙卡在那里
+- 有没有误删故事其实离不开的那个词
+- 现在的语言还会不会一眼看出是可替换的句壳
+- 句长和段落变化是不是自然，而不是平均分配出来的
+- 情绪温度是不是已经能被读者感觉到，而不是作者替读者下判断
 
-- does the prose still sound like this novel
-- does each major speaker still sound like themselves
-- was anything flattened that should have stayed textured
-- did the paragraphing become too chopped or too airless for the chosen mode
-- did cleanup remove only genericity, or also remove force
-- did cleanup leave behind a jargon wall
-- did cleanup cut a term the story genuinely needed
-- does the prose avoid modular language (phrases that feel swappable between stories or characters)
-- does the paragraph and sentence structure feel organic rather than evenly balanced
-- does the chapter carry adequate emotional color without being told to feel
-
-If the chapter becomes cleaner but less alive, revise again.
+如果文字只是更整齐，却更不活了，就还得再改。

@@ -1,194 +1,183 @@
-# Genre Benchmark Rules
+# 类型基准规则 (Genre Benchmark Rules)
 
-Use this after the project's genre cluster is known. Apply only the relevant rule group.
+按项目类型选择对应基准。基准是校准压力的工具，不是复制样本的许可。
 
-## Historical Power Struggle
+## Historical Power Struggle / 历史权谋
 
-### Theme And Core Logic
+### 主题与核心逻辑
 
-- private ambition must collide with order, legitimacy, kinship, and public consequence
-- historical scale should still pass through ordinary survival and material conditions
+- 权力必须通过制度、资源、名分和人情成本落地
+- 大义不能只是口号，必须压到具体人的选择和损失上
 
-### Character Logic
+### 人物逻辑
 
-- characters need both positional logic and personal wound
-- loyalty, shame, class, household burden, and fear of disorder should all matter
+- 主要人物要有私人欲望和制度位置，不能只当阵营符号
+- 忠诚、背叛、忍耐和妥协都要有代价
 
-### Narrative And Structural Logic
+### 叙事与结构逻辑
 
-- power shifts must arise from institution, resource control, timing, or information asymmetry
-- intrigue without governance logic is hollow
+- 政治动作要有连锁反应
+- 胜利不能只靠主角聪明，必须受制度、信息差和资源限制
 
-### Text-Technique Landing Logic
+### 文本落地逻辑
 
-- use concrete era texture, protocol, law, travel, food, labor, or rank markers
-- keep exposition embedded in consequence
+- 制度压力要通过场面、礼制、称谓、文书、钱粮、军令、家族等物件落地
+- 不要让解释压过场景
 
-### Compliance And Originality Logic
+### 合规与原创逻辑
 
-- do not fake history with costume labels
-- do not copy famous court-twist rhythms
+- 不照搬知名权谋结构和名场面
+- 不用现代观点直接替古人发言，除非叙述设计明确需要
 
-## Contemporary Realism / Urban Reality
+## Contemporary Realism / Urban Reality / 当代现实与都市现实
 
-### Theme And Core Logic
+### 主题与核心逻辑
 
-- social pain must land in livelihood, relationships, dignity, and choice
-- issue-awareness alone is not enough
+- 现实压力要进入工作、家庭、钱、医疗、教育、住房、身份等日常结构
+- 温情或治愈不能抹掉真实代价
 
-### Character Logic
+### 人物逻辑
 
-- let people be conflicted, compromised, funny, ashamed, loving, and self-protective at once
+- 人物不能只是社会议题的载体，要有自己的小算盘、羞耻和求生方式
 
-### Narrative And Structural Logic
+### 叙事与结构逻辑
 
-- major turns should come from job pressure, family systems, class movement, or institutional contact
+- 冲突应来自现实结构和人际错位，不只来自巧合
+- 转机要有条件和成本
 
-### Text-Technique Landing Logic
+### 文本落地逻辑
 
-- keep dialogue, routine, and environment recognizably lived-in
-- avoid public-issue slogans replacing scene truth
+- 细节要具体到生活材料，而不是抽象感慨
 
-### Compliance And Originality Logic
+### 合规与原创逻辑
 
-- do not build cardboard "representative figures"
-- do not confuse hot-topic stacking with reality writing
+- 不把现实题材写成热搜摘要
+- 不把人物写成观点牌
 
-## Suspense / Mystery / Fair-Play Puzzle
+## Suspense / Mystery / Fair-Play Puzzle / 悬疑推理
 
-### Theme And Core Logic
+### 主题与核心逻辑
 
-- uncertainty must deepen meaning, not just delay information
-- suspense should expose motive, fear, guilt, or concealment
+- 隐藏真相必须改变人物、关系或世界理解
+- 悬念来自压力，不来自作者故意不给信息
 
-### Character Logic
+### 人物逻辑
 
-- suspects, investigators, victims, and witnesses all need distinct pressure
-- nobody should exist only to hide the trick
+- 调查者、嫌疑人、受害者和隐瞒者都要有可理解动机
 
-### Narrative And Structural Logic
+### 叙事与结构逻辑
 
-- clue placement must be fair
-- reveal order must feel surprising and retrospectively inevitable
-- every misdirection needs a truth-bearing function
+- 线索要早于揭示出现
+- 红鲱鱼可以误导，但不能替代真线索
+- 最终答案要能回头反推
 
-### Text-Technique Landing Logic
+### 文本落地逻辑
 
-- manage viewpoint, scene cuts, clue visibility, and pressure cadence tightly
+- 线索要落进动作、物件、时间、空间或话语漏洞里
 
-### Compliance And Originality Logic
+### 合规与原创逻辑
 
-- do not copy a known signature trick
-- do not simulate complexity by withholding basic scene logic
+- 不靠无提示新信息解决谜题
+- 不复刻经典诡计外壳
 
-## Ancient Romance / Profession-Growth
+## Ancient Romance / Profession-Growth / 古言与职业成长
 
-### Theme And Core Logic
+### 主题与核心逻辑
 
-- affection should grow through work, danger, status, and value collision
-- growth lines need craft or profession legitimacy, not title inflation
+- 关系推进必须和身份、资源、职业能力或社会限制相互牵动
 
-### Character Logic
+### 人物逻辑
 
-- lovers need attraction, distrust, practical friction, and mutual recognition
-- secondary cast should sharpen both the world and the relationship
+- 情感选择要有代价，成长不能只靠被爱或被赏识
 
-### Narrative And Structural Logic
+### 叙事与结构逻辑
 
-- romance beats and profession beats should mutually alter stakes
-- sweetness without pressure becomes disposable
+- 职业线、家族线、情感线要互相干扰，不要平行展示
 
-### Text-Technique Landing Logic
+### 文本落地逻辑
 
-- era constraint, vocation detail, and emotional temperature shifts should all be visible
+- 亲密感要通过行为、克制、礼法、误会和选择体现
 
-### Compliance And Originality Logic
+### 合规与原创逻辑
 
-- avoid stock "genius heroine solves all" shortcuts
-- avoid reheating familiar courtship set-pieces
+- 不照搬热门人设壳
+- 不让“强女主/深情男主”停在标签上
 
-## Ensemble Game / Infinite-Flow / Rules-Based Survival
+## Ensemble Game / Infinite-Flow / Rules-Based Survival / 群像游戏、无限流与规则生存
 
-### Theme And Core Logic
+### 主题与核心逻辑
 
-- rules should reveal worldview, not only produce obstacles
-- collective survival and individual calculation must stay in tension
+- 规则必须既能提供玩法，也能制造代价
+- 生存压力要改变关系和信任结构
 
-### Character Logic
+### 人物逻辑
 
-- each core member needs a distinct use, desire, blind spot, and betrayal threshold
+- 群像角色要有独立策略和恐惧，不只是功能位
 
-### Narrative And Structural Logic
+### 叙事与结构逻辑
 
-- rules must be clear enough to strategize against
-- reversals should come from rule reinterpretation, alliance rupture, or moral tradeoff
-- hidden lines should exist beneath the visible stage mission
+- 每轮规则都应推进主线理解，而不是只换副本皮
+- 队友关系要随信息和风险变化
 
-### Text-Technique Landing Logic
+### 文本落地逻辑
 
-- chapter endings should preserve forward urgency
-- exposition must stay attached to decision pressure
+- 规则通过试错、惩罚、漏洞和选择展示，不靠说明书堆叠
 
-### Compliance And Originality Logic
+### 合规与原创逻辑
 
-- do not build empty puzzle rooms
-- do not rely on arbitrary author override
+- 不照搬知名副本结构、规则名和通关法
 
 ## System Fiction / Power Fantasy / 系统文爽文
 
-### Theme And Core Logic
+### 主题与核心逻辑
 
-- the golden finger is a pressure engine, not a solution machine; it must generate choices, not only victories
-- power growth should reveal what the protagonist wants and what that wanting costs
-- the world's power framework must have rules that constrain the protagonist as well as enable them
+- 爽点要和主角欲望、限制、身份变化绑定
+- 金手指不能只是万能解法
 
-### Character Logic
+### 人物逻辑
 
-- the protagonist's golden finger must be bound to their core personality; it should reflect or challenge who they are, not just make them stronger
-- supporting cast need independent desires and power logic; they should not exist only to be surpassed or rescued
-- antagonists need a power logic that is not simply "stronger than the protagonist's current ceiling"
+- 主角必须仍然有力量无法解决的欲望、关系或身份压力
 
-### Narrative And Structural Logic
+### 叙事与结构逻辑
 
-- each story stage must have a defined golden finger ceiling; the protagonist cannot outpace the obstacle design
-- at least one major obstacle type must exist that the golden finger cannot solve, forcing use of other resources
-- pressure sources must include at least one of: cost layer, rules layer, competition layer, desire layer, identity layer — not only enemy strength escalation
-- growth curve must have defined breakthrough conditions, not arbitrary author-granted upgrades
+- 金手指必须有阶段上限，不能让主角跑赢障碍设计
+- 至少有一类主要障碍不能由金手指直接解决
+- 压力来源至少包含代价层、规则层、竞争层、欲望层、身份层之一，而不只是敌人变强
 
-### Text-Technique Landing Logic
+### 文本落地逻辑
 
-- golden finger mechanics and world power rules should appear through use, failure, cost, or social consequence — not through exposition blocks
-- chapter endings should carry forward at least one unresolved pressure from the golden finger's limits or costs
-- power comparisons should be grounded in concrete scene stakes, not abstract tier labels
+- 机制和力量规则要通过使用、失败、代价或社会后果出现
+- 章尾应携带金手指限制或代价带来的未解压力
+- 力量比较要落在场景利害上，不要只靠抽象等级标签
 
-### Compliance And Originality Logic
+### 合规与原创逻辑
 
-- do not copy a known system interface, cultivation tier name set, or cheat ability shell
-- do not let power fantasy override character pressure; the protagonist must still want something that power alone cannot give
-- do not reset the golden finger's costs or limits when the plot needs a convenient solution
+- 不复制知名系统界面、修炼等级名或能力壳
+- 不让爽感吞掉人物压力
+- 不在剧情需要时重置成本和限制
 
-## Serious / Literary / Experimental
+## Serious / Literary / Experimental / 严肃、文学与实验
 
-### Theme And Core Logic
+### 主题与核心逻辑
 
-- formal ambition must reveal truth unavailable in a simpler form
-- depth must still land in scene, body, relation, or consequence
+- 形式野心必须揭示简单形式无法揭示的真相
+- 深度仍要落在场景、身体、关系或后果上
 
-### Character Logic
+### 人物逻辑
 
-- characters need inward contradiction, not only symbolic weight
+- 人物要有内在矛盾，不只是象征重量
 
-### Narrative And Structural Logic
+### 叙事与结构逻辑
 
-- fragmentation, slowness, or temporal shift must earn themselves
-- anti-plot is not an excuse for anti-causality
+- 破碎、缓慢或时间错位必须有必要性
+- 反情节不等于反因果
 
-### Text-Technique Landing Logic
+### 文本落地逻辑
 
-- protect language vitality, rhythm, image return, and structural necessity
-- preserve reader orientation even when withholding interpretation
+- 保护语言活力、节奏、意象回环和结构必要性
+- 即使延迟解释，也要保住读者方位感
 
-### Compliance And Originality Logic
+### 合规与原创逻辑
 
-- do not imitate prestige surfaces
-- do not confuse obscurity with seriousness
+- 不模仿“高级感”的表面
+- 不把晦涩误当严肃

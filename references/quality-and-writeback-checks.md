@@ -1,127 +1,134 @@
-# Quality And Writeback Checks
+# 质量检查与回写规则 (Quality And Writeback Checks)
 
-Use this reference when:
+以下情况要读这一份：
 
-- accepting or rejecting a drafted chapter
-- applying adaptive weighting for slow-burn or restrained requests
-- running final authenticity and continuity review
-- updating canonical files after an accepted chapter
+- 判断某一章该不该接受
+- 在用户要求慢热、克制或反公式写法时调整权重
+- 做最终的真实感、连续性和结构复核
+- 接受一章后，把变化回写进 canon 文件
 
-## Chapter benchmark check
+## 章节基准检查
 
-After every chapter draft, confirm at minimum:
+每章草稿出来后，至少确认下面这些：
 
-- character dimensionality increased or at least remained alive rather than flattened
-- at least one arc, line, relationship, debt, or understanding moved; quieter chapters may deepen cost, narrow choice, or reposition pressure instead of forcing a big external leap
-- pacing contains hook, propulsion, local closure, and residue appropriate to the active benchmark mode
-- the chapter closes, deepens, or reprices at least one obligation and carries at least one debt or unstable pressure forward when the book still needs forward pull
-- theme lands in action, relation, or consequence
-- the prose keeps memory points and does not collapse into flat procedural narration
-- paragraphing matches the active `paragraph_mode`; under `web-serial-natural`, narration is not routinely chopped into one-sentence paragraphs or decorative blank gaps, and under `long-paragraph`, continuity does not become a wall of inert exposition
-- originality remains intact and the chapter is not benchmark cosplay
-- recurring elements either advance, echo, or are intentionally deferred with justified pressure
-- scene progression contains at least one changed pressure state through a turn, aftershock, repricing, or newly exposed instability; a quieter chapter may satisfy this by making an old pressure heavier rather than louder
-- protagonist core personality appears in action or dialogue
-- dialogue carries pressure rather than only explanation
-- suspense or reveal tasks are handled fairly where active
-- chapter architecture includes a turn, local closure, and carryover debt, or a consciously justified looser movement already recorded in the chapter control card
-- if chapter titles are active, the selected title fits the accepted chapter, preserves curiosity, and matches the project's naming system
+- 人物维度有所增加，或者至少没有被写扁
+- 至少有一条弧线、关系、债务、理解或压力发生了推进；如果是偏安静的一章，也要让代价更重、选择更窄，或者把下一步压力重新摆位，而不是原地不动
+- 节奏上有钩子、推动、局部收束和余味，并且与当前基准模式相匹配
+- 只要整本书还需要继续往前拉，本章就应该把至少一项义务收束、加深或重新定价，同时把至少一笔债或一股不稳定压力带到下一章
+- 主题是落在动作、关系或后果里的，不是停在口号上
+- 文字里有记忆点，不会塌成纯流程说明
+- 段落方式符合当前 `paragraph_mode`；在 `web-serial-natural` 下，叙述不能习惯性碎成单句段和装饰性空行；在 `long-paragraph` 下，也不能一路闷成说明墙
+- 原创性还在，没有活成“基准 cosplay”
+- 返场元素要么推进、要么回响、要么有理由地暂时沉下去，不是无声消失
+- 场景推进里至少要出现一次压力变化：转折、余震、重新定价，或新露出的不稳；安静章节也可以通过“旧压力更沉了”来成立
+- 主角核心性格在动作或对白里是可见的
+- 对话承担了压力，而不只是负责解释
+- 这一章如果牵涉悬念或揭示，处理得要公平
+- 章节结构里要么有转折、局部收束和延续债，要么控制卡里已经提前说明这一章故意采用较松的移动方式
+- 如果项目使用章节标题，当前标题要贴合接受稿，并符合整本书的命名系统
 
-## Dynamic update rules
+## 动态更新与回写规则
 
-After every accepted chapter, update `08-dynamic-state.md` with:
+每接受一章，都要更新 `08-dynamic-state.md`，至少包括：
 
-- key events
-- character state changes
-- relationship changes
-- plotline progress
-- foreshadow updates
-- world or rule changes
-- emotional debts, promises, wounds
-- retrieval and return pressure
-- line heat or cold status where relevant
-- last meaningful touch for recurring elements when that affects future recall
-- temporary assumptions pending confirmation
-- carryover into the next chapter
+- 关键事件
+- 人物状态变化
+- 关系变化
+- 主线推进
+- 伏笔更新
+- 世界规则变化
+- 情感债、承诺、伤口
+- 检索与返场压力
+- 必要时的线热/线冷状态
+- 对后续检索有影响的“上一次有效触碰”
+- 尚待确认的临时假设
+- 下一章的延续项
 
-When updating `08-dynamic-state.md`, also remove carryover items that this chapter resolved. Do not let resolved items accumulate across chapters.
+更新 `08-dynamic-state.md` 时，也要把本章已经解决的延续项删掉，不要让它们无限堆着。
 
-Then update these files when needed:
+然后按需要更新这些文件：
 
-- `chapters/NN-<chapter-title>.md` and `control-cards/NN-<chapter-title>-control-card.md` — every chapter
-- `05-main-plotlines.md`, `06-foreshadow-ledger.md`, `07-chapter-roadmap.md` — whenever the chapter materially advances a plotline, plants or pays off a foreshadow, or changes the roadmap; in marathon mode these may be batched every 3-5 chapters when no material change occurred
-- `02-worldbuilding.md`, `03-cast-bible.md`, `04-relationship-map.md` — only when content actually changed
+- `chapters/NN-<chapter-title>.md` 与 `control-cards/NN-<chapter-title>-control-card.md` —— 每章都更新
+- `05-main-plotlines.md`、`06-foreshadow-ledger.md`、`07-chapter-roadmap.md` —— 当本章实质推进了主线、埋下或回收了伏笔、或改变了后续路线时再更新；在马拉松模式下，如果没有实质变化，可以每 `3-5` 章一并处理一次
+- `02-worldbuilding.md`、`03-cast-bible.md`、`04-relationship-map.md` —— 只有内容真的变了才更新
 
-When updating `06-foreshadow-ledger.md`: move any foreshadow paid off in this chapter to an `## Archive` section at the bottom — do not delete it, do not leave it in the active list.
+更新 `06-foreshadow-ledger.md` 时：
 
-When updating `07-chapter-roadmap.md`: move completed chapter slots to an `## Archive` section at the bottom.
+- 本章已经回收的伏笔，要移到文末 `## Archive`
+- 不要删除
+- 也不要继续留在活跃列表里
 
-Do not write back files that have not changed.
+更新 `07-chapter-roadmap.md` 时：
 
-If a secondary control view exists, update canonical files first and never leave the sidecar newer than canon.
-If chapter titles are active and the accepted title changed during drafting, repair the title fields in `07-chapter-roadmap.md` during the same writeback pass.
-If chapter titles or chapter numbers changed during acceptance, rename the matching files in `chapters/` and `control-cards/` during the same writeback pass.
+- 已完成的章节条目，要移到文末 `## Archive`
 
-## Adaptive weighting
+没有变化的文件不要硬写回。
 
-If the user explicitly asks for slow-burn, anti-formula, restrained intensity, or literary / experimental movement:
+如果项目还有图谱或其他辅助层，先更新 canon，再去补辅助层；不要让辅助层比 canon 更新。
+如果接受阶段换了章节标题，就要在同一次回写里修正 `07-chapter-roadmap.md` 里的标题字段。
+如果接受阶段改了章节编号或标题，就要同步重命名 `chapters/` 和 `control-cards/` 对应文件。
 
-- keep character, logic, theme, and originality as hard gates
-- down-weight but do not erase hook density, twist frequency, stimulation intensity, and cliff severity
-- allow a bridge or recovery chapter to count as successful when it deepens pressure, repairs continuity, or repositions the next turn without pretending to be a high-spike chapter
-- record the down-weighted checks in `09-style-guide.md`
+## 权重自适应
 
-## Quality gates
+如果用户明确要求慢热、反公式、克制强度，或者偏文学、偏实验的推进方式：
 
-Apply [critical-evaluation-standards.md](critical-evaluation-standards.md) to chapter review and [epoch-and-people-resonance.md](epoch-and-people-resonance.md) to project-scale resonance checks.
-Reject or revise a chapter when any of these are true:
+- 人物、逻辑、主题、原创性这些仍然是硬门槛
+- 钩子密度、反转频率、刺激强度、断章激烈程度可以降权，但不能直接清零
+- 过桥章、回稳章、修复章也可以算成功，只要它确实加深了压力、修补了连续性，或把下一次转折摆到了更准的位置，而不是假装自己是高峰章
+- 降权过的检查项，要写进 `09-style-guide.md`
 
-- a character acts only to push plot or satisfy trope expectation
-- a relationship changes without an emotional bridge
-- a payoff appears without prior load-bearing setup
-- a setting rule changes without document repair
-- point of view slips without purpose
-- structure is complex on the surface but thin underneath
-- an image or motif appears as decoration rather than pressure
-- the chapter drops the story's social, institutional, or era force
-- benchmark mode requires a hook, closure, or carryover debt and the chapter leaves none
-- a benchmark rule group is loaded but not visible in scene logic
-- the chapter imitates a sample's recognizable move instead of applying its principle
-- prose sounds inflated, fake-deep, dead, or slogan-like
-- paragraphing simulates intensity through empty spacing, consecutive single-sentence narrative paragraphs, or same-speaker beat-splitting without a pressure reason
-- a nonlinear shift reveals nothing about character truth or theme
-- style modules are mixed without purpose
+## 质量门槛
 
-## Originality discipline
+章节审读时，使用 [critical-evaluation-standards.md](critical-evaluation-standards.md)；项目级共振检查时，使用 [epoch-and-people-resonance.md](epoch-and-people-resonance.md)。
 
-Benchmark logic is a pressure system, not a copying license.
+只要出现以下任一情况，就不能直接接受，必须返修：
 
-Never:
+- 人物行动只是为了推剧情或满足套路预期
+- 关系变化没有情绪桥梁
+- 回收点出现时，前面没有足够承重的铺垫
+- 世界规则变了，却没补文档
+- 视角无意义滑移
+- 表面结构很复杂，底层却很空
+- 意象或母题只是装饰，没有承担压力
+- 章节把作品的社会、制度或时代力量写没了
+- 当前基准模式要求有钩子、收束或延续债，而本章一个都没留下
+- 该加载的基准规则已经加载了，却没有体现在场景逻辑里
+- 章节在模仿样本作品的招牌招数，而不是借用其底层原理
+- 文字发飘、假深刻、死板，或像口号
+- 靠空行、连续单句叙述段、同一说话人无理由拆段来假造强度
+- 非线性切换既没揭示人物，也没增加主题层次
+- 风格模块混在一起，却没有明确用途
 
-- transplant a sample work's core trick
-- imitate a sample work's signature cast shell
-- preserve a sample work's reveal order with cosmetic changes
-- use benchmark labels as an excuse for collage writing
+## 原创性纪律
 
-Always:
+基准逻辑是压力校准系统，不是复制许可证。
 
-- extract the principle
-- restate it as a project-specific action
-- test it against the user's actual aims
-- prefer fresh combinations of pressure, scene logic, and language
+绝对不要：
 
-## Common mistakes
+- 直接搬样本作品的核心招
+- 模仿样本作品的招牌人物壳
+- 只换皮不换骨地照抄对方的揭示顺序
+- 把“符合基准”当成拼贴写作的借口
 
-- treating project files as optional
-- building only one visible line and calling it a long-form structure
-- writing a chapter before deciding what it must advance
-- forgetting to update dynamic state after drafting
-- recording key truths in the log instead of the real project files
-- treating foundational literary principles as inspiration instead of constraints
-- loading every style module instead of only the selected internal modules
-- treating a scratch graph or recall map as if it were the canon
-- bringing back cold elements with empty cameos instead of causal pressure
-- flattening prose while trying to remove AI patterns
-- treating every sentence like a paragraph break and mistaking blank space for pace control
-- locking a chapter title before drafting and never rechecking whether the accepted chapter still earns it
-- using spoiler summaries or generic chapter labels when a titled system is active
+必须做到：
+
+- 先抽出原理
+- 再把原理改写成适合当前项目的具体动作
+- 再拿它去对照用户真正想写的东西
+- 优先创造新的压力组合、场景逻辑和语言路径
+
+## 常见失误
+
+- 把项目文件当成可有可无
+- 只做了一条可见主线，却自称在写长篇
+- 还没决定这一章要推进什么，就开始写
+- 章后忘了更新动态状态
+- 关键事实写进日志，却没写进正式项目文件
+- 把基础文学原则当灵感看，而不是当硬约束用
+- 什么风格模块都读，反而没有只读当前真正需要的
+- 把草图、图谱或召回表当成 canon 本身
+- 返场只会点名，不会真正改变压力
+- 一边去 AI，一边把文字洗平了
+- 句句都想另起一段，把空白误当节奏
+- 标题起得太早，成稿后也不回头复核
+- 项目明明用了标题系统，却还在写剧透式总结标题或空壳标题

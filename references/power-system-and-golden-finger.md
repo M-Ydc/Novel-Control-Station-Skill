@@ -1,68 +1,73 @@
-# Power System And Golden Finger
+# 力量体系与金手指 (Power System And Golden Finger)
 
-Use this when designing the protagonist's special ability, system, or cheat advantage, and when building the world's power framework.
+设计主角特殊能力、系统、外挂优势，或搭建世界力量框架时使用。
 
-Load during the interview and design phase. Do not defer to chapter drafting.
+这份应在访谈和设计阶段加载，不要拖到章节写作时才补。
 
-## 1. Golden Finger Types
+## 1. 金手指类型
 
-Identify the type before designing details:
+先确认类型，再设计细节：
 
-| Type | Core Advantage | Default Risk |
+| 类型 | 核心优势 | 默认风险 |
 |---|---|---|
-| 系统型 | game-like interface, missions, stat tracking, rewards | system becomes a solution machine; protagonist loses agency |
-| 能力型 | unique skill or talent others cannot access | ability too strong too early; tension collapses |
-| 知识型 | foreknowledge from rebirth or transmigration | protagonist becomes an information arbitrage machine; loses character depth |
-| 资源型 | unique items, space, or connections | resources solve everything; conflict becomes resource management |
-| 身份型 | hidden bloodline, identity, or status | story loses drive after identity is revealed |
+| 系统型 | 任务、面板、数值、奖励 | 系统变成解题机器，主角失去主体性 |
+| 能力型 | 独一份技能或天赋 | 太早过强，张力崩塌 |
+| 知识型 | 重生/穿越带来的先知信息 | 主角变成信息套利机器，人物深度下降 |
+| 资源型 | 独特物品、空间、人脉 | 资源解决一切，冲突变成库存管理 |
+| 身份型 | 血脉、身份、地位隐藏牌 | 身份揭开后故事失去驱动力 |
 
-A golden finger may combine types. Name the primary type and note the secondary type if present.
+金手指可以混合类型，但必须点明主类型；有副类型时再补充。
 
-## 2. Five Design Questions
+## 2. 五个设计问题
 
-Answer all five before the outline is locked:
+大纲锁定前必须回答：
 
-1. **核心优势** — what does the golden finger give the protagonist that others cannot have? State it in one sentence.
-2. **成长曲线** — how many stages does it have? What are the stage ceilings? What triggers each breakthrough?
-3. **代价与限制** — what does using it cost? What can it not do? What hard ceiling exists for the whole story?
-4. **与主线的绑定** — how does the golden finger generate story pressure rather than only solve problems?
-5. **与主角性格的绑定** — how does the golden finger reflect or challenge the protagonist's core personality?
+1. **核心优势**：它给主角什么别人没有的东西？用一句话说清。
+2. **成长曲线**：有几个阶段？每阶段上限是什么？突破条件是什么？
+3. **代价与限制**：使用它要付出什么？它不能做什么？全书硬上限是什么？
+4. **与主线绑定**：它如何制造故事压力，而不只是解决问题？
+5. **与主角性格绑定**：它如何反映或挑战主角的核心性格？
 
-If any answer is "none" or "not yet decided," treat it as a design gap and resolve it before drafting begins.
+任何一项回答是“没有”或“还没想好”，都视为设计缺口，开写前必须补齐。
 
-## 3. Pressure Sources
+## 3. 压力来源
 
-A golden finger that only solves problems produces shallow tension. The design must include at least one pressure source that is not moral judgment:
+只会解决问题的金手指，会制造浅张力。设计时至少要有一层非道德审判式压力。
 
-**代价层 (Cost pressure)**
-- every use consumes a resource: time, lifespan, energy, future options
-- the choice is "is this worth the cost," not "is this right"
-- cost must be concrete and trackable, not vague
+**代价层**
 
-**规则层 (Rules pressure)**
-- the golden finger has an internal logic the protagonist must learn and navigate
-- before the rules are understood, decisions are suboptimal
-- rules may have branches: choosing one path closes another
-- key moments may require conditions the protagonist cannot yet meet
+- 每次使用都消耗资源：时间、寿命、精力、未来选择
+- 选择不是“对不对”，而是“值不值”
+- 代价必须具体、可追踪，不能只是模糊亏损
 
-**竞争层 (Competition pressure)**
-- rapid growth attracts threats the protagonist is not yet ready to face
-- the advantage is studied and countered by opponents
-- the golden finger is ineffective against a specific class of enemy that the main plot requires facing
+**规则层**
 
-**欲望层 (Desire pressure)**
-- the golden finger enables the protagonist's surface desire but exposes a deeper desire still unmet
-- fast achievement skips the process that would have built judgment, relationships, or understanding
-- getting what was wanted reveals the cost in the next objective
+- 金手指有内部逻辑，主角需要学习和摸索
+- 规则没弄懂前，主角会做次优选择
+- 规则可以有分叉：选一条路会关掉另一条
+- 关键时刻可能需要主角暂时达不到的条件
 
-**身份层 (Identity pressure)**
-- the golden finger's logic conflicts with the protagonist's instincts; following it changes who they are
-- the ability comes from a source the protagonist does not endorse; using it means accepting that source
-- growing stronger in the golden finger's direction moves the protagonist away from who they wanted to become
+**竞争层**
 
-Each golden finger type has natural pressure affinities:
+- 快速成长会招来主角还没准备好的威胁
+- 对手会研究并反制主角优势
+- 金手指对某类主线敌人无效或弱效
 
-| Type | Primary Pressure | Secondary Pressure |
+**欲望层**
+
+- 金手指满足表层欲望，却暴露更深欲望仍然缺口
+- 太快成功跳过了本该建立判断、关系或理解的过程
+- 得到想要的东西后，下一目标立刻显出代价
+
+**身份层**
+
+- 金手指逻辑与主角本能冲突，顺从它会改变主角是谁
+- 能力来源不被主角认同，使用它等于接受那一来源
+- 沿着金手指变强，会让主角远离原本想成为的人
+
+不同类型的天然压力倾向：
+
+| 类型 | 主要压力 | 次要压力 |
 |---|---|---|
 | 系统型 | 规则层 | 竞争层 |
 | 知识型 | 欲望层 | 竞争层 |
@@ -70,63 +75,65 @@ Each golden finger type has natural pressure affinities:
 | 资源型 | 竞争层 | 规则层 |
 | 身份型 | 身份层 | 欲望层 |
 
-## 4. The Golden Finger Trap
+## 4. 金手指陷阱
 
-The most common failure: the golden finger is too powerful too early, removing all tension. Prevent it by building in:
+最常见失败：金手指太早太强，拿走所有张力。
 
-- a clear power ceiling for each story stage; the protagonist cannot exceed it regardless of effort
-- obstacle types the golden finger cannot solve, forcing use of other resources
-- a concrete cost that makes each use a real decision rather than a free action
-- at least one major opponent or situation where the golden finger's primary advantage is neutralized
+避免方法：
 
-If the golden finger can solve every problem the story presents, the story has no tension. Design the story's obstacles in relation to the golden finger's limits, not in spite of them.
+- 每个故事阶段都有清楚的力量上限，无论主角多努力都不能越过
+- 设计一些金手指解决不了的障碍，迫使主角使用其他资源
+- 每次使用都有具体代价，让它不是免费动作
+- 至少有一个主要对手或局面，会中和金手指的核心优势
 
-## 5. Power System Design (World Layer)
+如果金手指能解决故事提出的所有问题，故事就没有张力。障碍要围绕金手指的限制来设计，而不是无视它。
 
-The golden finger exists inside a world power framework. Design the framework first, then place the golden finger within it.
+## 5. 世界力量体系
 
-Answer these for the world's power system:
+金手指必须存在于一个世界力量框架里。先设计世界框架，再把金手指放进去。
 
-- **来源** — where does power come from? cultivation, systems, bloodlines, contracts, technology
-- **层级** — what are the tiers or stages? must be clear enough to produce meaningful obstacles
-- **代价** — what does advancing cost? time, resources, risk, relationships, moral compromise
-- **硬上限** — what can power not solve? this question matters more than what power can do
-- **社会关系** — does power equal status, or is there tension between them?
+回答这些问题：
 
-Rules that only enable the protagonist are weak. Rules that constrain the protagonist and others equally are strong. The best rules create situations where the protagonist can use the rule but using it has a cost.
+- **来源**：力量从哪里来？修炼、系统、血脉、契约、科技？
+- **层级**：有哪些等级或阶段？差异要足够制造障碍
+- **代价**：晋升消耗什么？时间、资源、风险、关系、道德妥协？
+- **硬上限**：力量不能解决什么？这个问题比“力量能做什么”更重要
+- **社会关系**：力量是否等于地位，还是两者有张力？
 
-## 6. Revelation Discipline
+只给主角开路的规则很弱。强规则应该同时约束主角和别人。最好的规则是：主角可以利用它，但利用它一定有代价。
 
-World power rules and golden finger mechanics should be revealed through use, failure, cost, or social consequence — not through exposition.
+## 6. 揭示纪律
 
-- the reader learns the rules the same way a newcomer to the world would: through experience
-- when a new rule or mechanic appears, show its boundary, cost, or social consequence immediately
-- do not introduce a rule and then ignore its implications in the same chapter
+世界力量规则和金手指机制，应该通过使用、失败、代价或社会后果展示，不要靠说明书堆出来。
 
-## 7. Outline Checks For Golden Finger
+- 读者像新进入世界的人一样，通过经验理解规则
+- 新规则或新机制出现时，立刻展示它的边界、代价或后果
+- 不要这一章刚介绍规则，这一章自己就忽略它的影响
 
-Before accepting the outline, confirm:
+## 7. 大纲阶段检查
 
-- the golden finger's cost and limits are defined, not vague
-- the golden finger is bound to the protagonist's core personality in a way that produces pressure
-- at least one story stage exists where the golden finger's primary advantage is insufficient
-- the world power framework is consistent with the golden finger's position within it
-- the growth curve has defined ceilings; the protagonist cannot outpace the story's obstacle design
+接受大纲前确认：
 
-## 8. Chapter-Level Golden Finger Questions
+- 金手指的代价和限制已经明确，不是模糊说法
+- 金手指与主角核心性格绑定，并能制造压力
+- 至少有一个故事阶段里，金手指的核心优势不够用
+- 世界力量框架与金手指的位置一致
+- 成长曲线有明确上限，主角不能跑赢障碍设计
 
-Before each chapter where the golden finger is active, ask:
+## 8. 章节级问题
 
-- what pressure layer is active this chapter: cost, rules, competition, desire, or identity?
-- is the golden finger solving a problem or generating a choice?
-- if the protagonist uses the golden finger here, what does it cost and what does it close off?
-- is the golden finger's current stage ceiling visible in the scene's constraints?
+凡是金手指在本章生效，章前先问：
 
-## 9. Common Failures
+- 本章活跃的是哪一层压力：代价、规则、竞争、欲望，还是身份？
+- 金手指是在解决问题，还是在制造选择？
+- 主角如果在这里使用它，要付什么，又会关掉什么可能？
+- 金手指当前阶段上限，是否在场景限制里可见？
 
-- golden finger has no cost; every use is a free action
-- growth curve has no ceiling; protagonist outpaces all obstacles
-- pressure comes only from enemy strength, not from the golden finger's own limits
-- golden finger is disconnected from protagonist's personality; it could belong to any protagonist
-- world power rules change when the plot needs them to
-- golden finger mechanics introduced through exposition rather than use or consequence
+## 9. 常见失败
+
+- 金手指没有代价，每次使用都是免费动作
+- 成长曲线没有上限，主角跑赢所有障碍
+- 压力只来自敌人变强，不来自金手指自身限制
+- 金手指与主角性格脱节，换个主角也能用
+- 世界力量规则随着剧情需要随意变
+- 金手指机制靠说明而不是使用和后果出现
