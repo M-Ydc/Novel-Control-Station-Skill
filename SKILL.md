@@ -192,6 +192,7 @@ description: Use when writing, planning, continuing, repairing, revising, or run
 - [scene-execution-patterns.md](references/scene-execution-patterns.md)
 - [forgotten-elements-and-line-heat.md](references/forgotten-elements-and-line-heat.md)
 - [authenticity-and-de-ai-pass.md](references/authenticity-and-de-ai-pass.md)
+- [narrative-voice-construction.md](references/narrative-voice-construction.md)
 - [continuity-and-marathon-mode.md](references/continuity-and-marathon-mode.md)
 
 不要默认把所有章节阶段的参考文件全读一遍。只把路由到真正在生效的那几份。
@@ -495,7 +496,7 @@ description: Use when writing, planning, continuing, repairing, revising, or run
 14. 然后按 [authenticity-and-de-ai-pass.md](references/authenticity-and-de-ai-pass.md) 做去 AI 校正：
    - 先清掉通用 AI 句型、假深刻和抽象总结。
    - 如果专业化措辞并非故事必需，就删掉或翻译成更能被读者直接感到的说法。
-   - 最后再把具体细节、节奏变化和项目专属声音补回来。
+   - 最后再把具体细节、节奏变化和项目专属声音补回来。补回来的方向必须服从本书的口音参数；若口音参数尚未建立，先按 [narrative-voice-construction.md](references/narrative-voice-construction.md) 补建。
 15. 再跑一次去 AI 后复核：
    - 连续性事实是否还成立
    - 人物声音和关系压力有没有被洗平或洗偏
