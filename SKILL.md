@@ -193,6 +193,9 @@ description: Use when writing, planning, continuing, repairing, revising, or run
 - [forgotten-elements-and-line-heat.md](references/forgotten-elements-and-line-heat.md)
 - [authenticity-and-de-ai-pass.md](references/authenticity-and-de-ai-pass.md)
 - [narrative-voice-construction.md](references/narrative-voice-construction.md)
+- [quality-and-writeback-checks.md](references/quality-and-writeback-checks.md)
+- [chapter-control-card.md](references/chapter-control-card.md)
+- [logging-rules.md](references/logging-rules.md)
 - [continuity-and-marathon-mode.md](references/continuity-and-marathon-mode.md)
 
 不要默认把所有章节阶段的参考文件全读一遍。只把路由到真正在生效的那几份。
@@ -212,6 +215,9 @@ description: Use when writing, planning, continuing, repairing, revising, or run
   - 项目使用金手指或力量体系时，加 `power-system-and-golden-finger.md`
 - 章节起草与修订：
   - `chapter-architecture-rules.md` 始终载入
+  - `chapter-control-card.md` 始终载入（每章起草前必备）
+  - `quality-and-writeback-checks.md` 始终载入（章节基准检查与回写规则）
+  - `logging-rules.md` 始终载入（章后日志记录规则）
   - 项目使用章节标题或正在最终定标题时，载入 `chapter-title-method.md`
   - 返场密度高、人物轮换或干扰压力大时，载入 `graph-and-recall-control.md`
   - 对话承担压力时，载入 `dialogue-writing-rules.md`
@@ -220,6 +226,7 @@ description: Use when writing, planning, continuing, repairing, revising, or run
   - 连载返场风险显著时，载入 `forgotten-elements-and-line-heat.md`
   - 本章金手指或力量体系生效时，载入 `power-system-and-golden-finger.md` 的第 8 节（章节级问题），不要重新加载完整设计方法
   - 已经有结构合格的草稿后，再载入 `authenticity-and-de-ai-pass.md`
+  - 去 AI 校正第三轮需要补回声音方向、或本书口音参数尚未建立时，载入 `narrative-voice-construction.md`
   - 续写长篇或马拉松模式运行时，载入 `continuity-and-marathon-mode.md`
 
 ## 启动访谈流程 (Startup Interview Flow)
@@ -442,11 +449,12 @@ description: Use when writing, planning, continuing, repairing, revising, or run
 
 1. 如果项目刚启动、刚经历结构性转向，或者正在做高层复盘，先读基础 canon 文件。
 2. 读取 `08-dynamic-state.md` 和 `09-style-guide.md`。
-3. 用 [graph-and-recall-control.md](references/graph-and-recall-control.md) 先做一份召回切片：
+3. 当人物密度、主线干扰或伏笔体量大到线性翻文档已经低效时，用 [graph-and-recall-control.md](references/graph-and-recall-control.md) 先做一份召回切片：
    - 把本章相关的人物、关系、主线、伏笔、世界规则和情感债从动态状态里拉出来。
    - 标出哪些是热的、哪些在变冷、哪些本章绝对不能忘。
    - 只有当召回切片暴露了缺口时，才回头去读完整的 `03-cast-bible.md`、`05-main-plotlines.md`、`06-foreshadow-ledger.md`、`07-chapter-roadmap.md`。
    - `00-project-overview.md` 只在项目启动或发生重大结构转向后重读；连载稳定推进时不用每章重复读。
+   - 本章只有一条活线且返场压力很低时，可跳过显式图谱构建，但马拉松模式下召回切片仍为必做项。
 4. 只读取这一章真正需要的内部风格模块：
    - 先用 `09-style-guide.md` 判断这章的风格平衡、主副风格边界、强度范围和伪风格漂移风险。
    - 再从 [style-modules/index.md](references/style-modules/index.md) 里选择本章要读的风格模块。
@@ -461,22 +469,13 @@ description: Use when writing, planning, continuing, repairing, revising, or run
    - 金手指/力量体系在本章起作用时，读 `power-system-and-golden-finger.md` 的第 8 节
    - 连续续写或自动推进时，读 `continuity-and-marathon-mode.md`
    - 只有在已经有一版结构合格的草稿后，才读 `authenticity-and-de-ai-pass.md`
-6. 扫描以下风险：
-   - 设定冲突
-   - 人物走形
-   - 关系连续性断裂
-   - 情感债被遗忘
-   - 该返场的人物或关系拖得太久
-   - 主线变冷但没被推进、提醒或合理休眠
-   - 伏笔掉线 —— 先看 `08-dynamic-state.md` 里的伏笔摘要；只有动态状态看不够时，才去翻完整的 `06-foreshadow-ledger.md`
-   - 回收窗口没铺到位
-   - 某条主线长期失踪
-   - 世界规则被忘记
-   - 套路方便压过人的真实
-   - 社会压力或时代压力消失
-   - 通用 AI 句壳、假总结句、过于工整的对比句
-   - 分析腔、平台文案腔，或没来由的专业术语
-   - 段落模式漂移，比如装饰性空行、同一说话人乱拆段、无必要的单句段连发
+6. 扫描以下 canon 层风险（这一轮只查计划与 canon 的兼容性，文字层留给基准检查）：
+   - 设定冲突（查 canon 文件一致性）
+   - 人物走形（查人物档案与本章计划的行动是否矛盾）
+   - 关系连续性断裂（查前章动态状态的关系快照）
+   - 情感债、伏笔、主线过期未返场（查动态状态的时间窗口）
+   - 世界规则被忘记或被本章计划违反
+   - 冷线或失踪线是否已超出合理休眠期限
 7. 用 [chapter-control-card.md](references/chapter-control-card.md) 生成本章控制卡：
    - 当风格压力重要时，把风格强度、段落模式、正在生效的风格驱动、计划回收点和伪风格漂移一起记上。
    - 把控制卡写入 `control-cards/NN-<chapter-title>-control-card.md`；如果标题还没最终定，就先用稳定的工作 slug，最后定标题时再改名。
@@ -490,20 +489,17 @@ description: Use when writing, planning, continuing, repairing, revising, or run
    - 在 `web-serial-natural` 模式下，叙述段大多保持 `2-4` 句；除非场景真的是为了形成重击，否则不要连着用单句段。
    - 同一个说话人的连续语气、附带动作和短跟句，除非压力或调度发生变化，否则不要乱拆段。
    - 段落的作用是区分说话人、时空/视角切换和真正的压力拐点，而不是装饰呼吸感。
-11. 跑一遍章节基准检查。
-12. 如果基准检查没过，先进入改稿升级，不要直接接受本章。
-13. 在做去 AI 校正前，把结构稿先存到 `drafts/NN-<chapter-title>-draft.md`。
-14. 然后按 [authenticity-and-de-ai-pass.md](references/authenticity-and-de-ai-pass.md) 做去 AI 校正：
-   - 先清掉通用 AI 句型、假深刻和抽象总结。
-   - 如果专业化措辞并非故事必需，就删掉或翻译成更能被读者直接感到的说法。
-   - 最后再把具体细节、节奏变化和项目专属声音补回来。补回来的方向必须服从本书的口音参数；若口音参数尚未建立，先按 [narrative-voice-construction.md](references/narrative-voice-construction.md) 补建。
-15. 再跑一次去 AI 后复核：
+11. 把结构稿先存到 `drafts/NN-<chapter-title>-draft.md`，保留去AI校正前的版本以便对照。
+12. 按 [authenticity-and-de-ai-pass.md](references/authenticity-and-de-ai-pass.md) 做去 AI 校正：
+   - 第一轮：清掉通用 AI 句型、假深刻和抽象总结。
+   - 第二轮：如果专业化措辞并非故事必需，就删掉或翻译成更能被读者直接感到的说法。
+   - 第三轮：把具体细节、节奏变化和项目专属声音补回来。补回来的方向必须服从本书的口音参数；若口音参数尚未建立，先按 [narrative-voice-construction.md](references/narrative-voice-construction.md) 补建。
+13. 跑 de-AI 污染检查——只查本轮校正是否引入了新问题：
    - 连续性事实是否还成立
    - 人物声音和关系压力有没有被洗平或洗偏
-   - 钩子、局部收束和余味是否还在
-   - 段落模式是否仍然正确，有没有重新落回装饰性空行
-   - 可读性有没有被多余术语挡住
-   - 真正需要保留的专业词、时代词、设定词有没有误删
+   - 真正需要保留的专业词、时代词、设定词有没有被误删
+14. 按 [quality-and-writeback-checks.md](references/quality-and-writeback-checks.md) 跑完整的章节基准检查——这是本章的最终质量门，通过才能接受。如果本章在 de-AI 中改动超过零星措辞，必须完整重跑，不能用 de-AI 污染检查替代。
+15. 如果基准检查没过，进入改稿升级，从步骤 10 重起草稿，不要直接接受本章。
 16. 如果项目使用章节标题，再做一次标题贴章复核：
    - 看标题是否还匹配本章的任务、转折、余味和声音。
    - 如果本章真正重心变了，就换掉工作标题。
@@ -511,7 +507,7 @@ description: Use when writing, planning, continuing, repairing, revising, or run
 18. 回写动态和结构文件：
    - 把接受稿写入 `chapters/NN-<chapter-title>.md`
    - 保证 `chapters/` 和 `control-cards/` 的标题、编号与接受稿一致
-19. 在写作日志里记录本章和相关文件更新。
+19. 按 [logging-rules.md](references/logging-rules.md) 在写作日志里记录本章和相关文件更新。
 
 ## 遗忘元素控制 (Forgotten Element Control)
 
