@@ -12,6 +12,7 @@ The skill is invoked via the Claude Code harness. Users trigger it with prompts 
 
 - `SKILL.md` — the skill entry point; defines the full workflow, hard rules, and reference loading order
 - `references/` — internal documentation library loaded on demand during novel creation (never all at once)
+- `references/techniques/` — supplementary technique library from oh-story-claudecode (hook, opening, emotion, genre, character, dialogue, etc.); optional, loaded at agent discretion
 - `references/style-modules/` — genre-specific style docs (humor, suspense, mystery, romance, horror, fantasy, literary); loaded selectively per chapter
 - `assets/codex-continue-novel.sh` — marathon mode runner template; copied into a novel project's root directory when marathon/auto-continuation mode is activated
 

@@ -227,7 +227,33 @@ description: Use when writing, planning, continuing, repairing, revising, or run
   - 本章金手指或力量体系生效时，载入 `power-system-and-golden-finger.md` 的第 8 节（章节级问题），不要重新加载完整设计方法
   - 已经有结构合格的草稿后，再载入 `authenticity-and-de-ai-pass.md`
   - 去 AI 校正第三轮需要补回声音方向、或本书口音参数尚未建立时，载入 `narrative-voice-construction.md`
-  - 续写长篇或马拉松模式运行时，载入 `continuity-and-marathon-mode.md`
+    - 续写长篇或马拉松模式运行时，载入 `continuity-and-marathon-mode.md`
+
+## 补充技法库 (Supplementary Technique Library)
+
+以下文件来自 oh-story-claudecode，作为可选技法参考。
+它们不参与 ncs 的核心控制流——agent 在对应阶段自行判断是否需要加载。
+
+| 文件 | 建议加载时机 |
+|------|-------------|
+| `references/techniques/emotional-arc-design.md` | 大纲阶段设计情绪节奏；发现情绪平推无起伏 |
+| `references/techniques/genre-frameworks-unified.md` | 题材框架选型；核心梗设计 |
+| `references/techniques/micro-innovation.md` | 设定阶段；担心题材与同类作品同质化 |
+| `references/techniques/quality-checklist.md` | 章节起草后；需要毒点排查清单和常见问题速查 |
+| `references/techniques/character-design.md` | 人物档案阶段；需要主角卡/配角卡/反派层级等模板参考 |
+| `references/techniques/dialogue-mastery.md` | 对话场景；需要对话模式数据库或节奏控制参考 |
+| `references/techniques/reversal-toolkit.md` | 设计反转节点；需要反转类型、时机和误导路径参考 |
+| `references/techniques/writer-psychology.md` | 连载疲劳；需要写作心理支持和职业规划参考 |
+
+以下 6 个文件已被硬编码到章节工作流中（步骤 3 / 7 / 10 / 12 / 14），此处不重复：
+- `references/techniques/opening-design.md`（步骤 3，前 3 章）
+- `references/techniques/genre-opening-database.md`（步骤 3，前 3 章）
+- `references/techniques/hook-decision-matrix.md`（步骤 7，每章控制卡选钩子方向）
+- `references/techniques/hook-writing-patterns.md`（步骤 10，强钩子章节起草时参考写法）
+- `references/techniques/banned-words.md`（步骤 12，每章去 AI 校正第一轮）
+- `references/techniques/hook-techniques.md`（步骤 14，钩子检查不过时诊断修复）
+
+所有技法文件头部均有 `<!-- ncs:technique -->` 标记，可据此快速识别。
 
 ## 启动访谈流程 (Startup Interview Flow)
 
@@ -455,6 +481,7 @@ description: Use when writing, planning, continuing, repairing, revising, or run
    - 只有当召回切片暴露了缺口时，才回头去读完整的 `03-cast-bible.md`、`05-main-plotlines.md`、`06-foreshadow-ledger.md`、`07-chapter-roadmap.md`。
    - `00-project-overview.md` 只在项目启动或发生重大结构转向后重读；连载稳定推进时不用每章重复读。
    - 本章只有一条活线且返场压力很低时，可跳过显式图谱构建，但马拉松模式下召回切片仍为必做项。
+   - **前 3 章时**：额外载入 `references/techniques/opening-design.md` 和 `references/techniques/genre-opening-database.md`。
 4. 只读取这一章真正需要的内部风格模块：
    - 先用 `09-style-guide.md` 判断这章的风格平衡、主副风格边界、强度范围和伪风格漂移风险。
    - 再从 [style-modules/index.md](references/style-modules/index.md) 里选择本章要读的风格模块。
@@ -477,6 +504,7 @@ description: Use when writing, planning, continuing, repairing, revising, or run
    - 世界规则被忘记或被本章计划违反
    - 冷线或失踪线是否已超出合理休眠期限
 7. 用 [chapter-control-card.md](references/chapter-control-card.md) 生成本章控制卡：
+   - 先载入 [hook-decision-matrix.md](references/techniques/hook-decision-matrix.md)，按本章故事阶段和压力落点选钩子方向，填入 `chapter_end_hook` 字段。
    - 当风格压力重要时，把风格强度、段落模式、正在生效的风格驱动、计划回收点和伪风格漂移一起记上。
    - 把控制卡写入 `control-cards/NN-<chapter-title>-control-card.md`；如果标题还没最终定，就先用稳定的工作 slug，最后定标题时再改名。
 8. 如果项目使用章节标题，就用 [chapter-title-method.md](references/chapter-title-method.md) 先生成 `3-5` 个标题候选：
@@ -484,6 +512,7 @@ description: Use when writing, planning, continuing, repairing, revising, or run
    - 把工作标题同步记录到控制卡和 `07-chapter-roadmap.md`。
 9. 如果风险扫描显示问题严重，转入“信息缺失分支”。
 10. 根据控制卡起草本章：
+   - 如果控制卡 `chapter_end_hook.intensity` 为 `强` 或 `极强`，写章尾钩子段落时载入 [hook-writing-patterns.md](references/techniques/hook-writing-patterns.md) 参考对应写法模式。
    - 如果这一章需要更紧的控制，就按场景单元或压力单元逐段推进，必要时结合 [scene-execution-patterns.md](references/scene-execution-patterns.md)。
    - 段落模式默认继承 `09-style-guide.md`，除非控制卡里写了本章覆盖。
    - 在 `web-serial-natural` 模式下，叙述段大多保持 `2-4` 句；除非场景真的是为了形成重击，否则不要连着用单句段。
@@ -491,7 +520,7 @@ description: Use when writing, planning, continuing, repairing, revising, or run
    - 段落的作用是区分说话人、时空/视角切换和真正的压力拐点，而不是装饰呼吸感。
 11. 把结构稿先存到 `drafts/NN-<chapter-title>-draft.md`，保留去AI校正前的版本以便对照。
 12. 按 [authenticity-and-de-ai-pass.md](references/authenticity-and-de-ai-pass.md) 做去 AI 校正：
-   - 第一轮：清掉通用 AI 句型、假深刻和抽象总结。
+    - 第一轮：先用 `references/techniques/banned-words.md` 中的禁用词表做正则搜索替换，再清通用 AI 句型、假深刻和抽象总结。
    - 第二轮：如果专业化措辞并非故事必需，就删掉或翻译成更能被读者直接感到的说法。
    - 第三轮：把具体细节、节奏变化和项目专属声音补回来。补回来的方向必须服从本书的口音参数；若口音参数尚未建立，先按 [narrative-voice-construction.md](references/narrative-voice-construction.md) 补建。
 13. 跑 de-AI 污染检查——只查本轮校正是否引入了新问题：
@@ -499,6 +528,7 @@ description: Use when writing, planning, continuing, repairing, revising, or run
    - 人物声音和关系压力有没有被洗平或洗偏
    - 真正需要保留的专业词、时代词、设定词有没有被误删
 14. 按 [quality-and-writeback-checks.md](references/quality-and-writeback-checks.md) 跑完整的章节基准检查——这是本章的最终质量门，通过才能接受。如果本章在 de-AI 中改动超过零星措辞，必须完整重跑，不能用 de-AI 污染检查替代。
+    - 如果钩子检查项未通过 → 载入 `references/techniques/hook-techniques.md`，利用章尾钩子工具箱诊断原因并定位修复方向。
 15. 如果基准检查没过，进入改稿升级，从步骤 10 重起草稿，不要直接接受本章。
 16. 如果项目使用章节标题，再做一次标题贴章复核：
    - 看标题是否还匹配本章的任务、转折、余味和声音。
